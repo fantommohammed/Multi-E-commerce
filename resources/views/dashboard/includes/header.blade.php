@@ -96,7 +96,7 @@
                                                 class="ft-alert-triangle icon-bg-circle bg-yellow bg-darken-3"></i>
                                         </div>
                                         <div class="media-body">
-                                            <h6 class="media-heading yellow darken-3">Warning notifixation</h6>
+                                            <h6 class="media-heading yellow darken-3">Warning notification</h6>
                                             <p class="notification-text font-small-3 text-muted">Vestibulum auctor
                                                 dapibus neque.</p>
                                             <small>

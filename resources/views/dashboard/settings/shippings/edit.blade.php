@@ -59,8 +59,19 @@
                                                             @enderror
                                                         </div>
                                                     </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="projectinput1"> قيمة التوصيل </label>
+                                                            <input type="number" value="{{$shippingMethod -> plain_value}}" id="plain_value"
+                                                                   class="form-control"
+                                                                   placeholder="  "
+                                                                   name="plain_value">
+                                                            @error("plain_value")
+                                                            <span class="text-danger">{{$message}}</span>
+                                                            @enderror
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div id="map" style="height: 500px;width: 1000px;"></div>
                                                 <div class="form-actions">
                                                     <button type="button" class="btn btn-warning mr-1"
                                                             onclick="history.back();">
