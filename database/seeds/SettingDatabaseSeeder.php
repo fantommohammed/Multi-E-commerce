@@ -25,9 +25,9 @@ class SettingDatabaseSeeder extends Seeder
             'flat_rate_cost'=>0,
             'translatable'=>[
                 'store_name'=>'FleetCart',
-                'free_shipping_label'=>'Free Shipping',
-                'local_label'=>'local shipping',
-                'outer_label'=>'outer_shipping',
+                'free_shipping_label'=>'توصيل مجانى',
+                'local_label'=>'توصل دخلى',
+                'outer_label'=>'توصيل خارجى',
             ],
         ]);
     }

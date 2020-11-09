@@ -40,7 +40,7 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body">
                                         <form class="form" action="{{route('update.shipping.methods',$shippingMethod -> id)}}"
-                                              method="PUT"
+                                              method="post"
                                               enctype="multipart/form-data">
                                             @csrf
                                             @method('PUT')
@@ -53,8 +53,8 @@
                                                             <input type="text" value="{{$shippingMethod -> value}}" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
-                                                                   name="name">
-                                                            @error("name")
+                                                                   name="value">
+                                                            @error("value")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
                                                         </div>

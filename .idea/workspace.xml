@@ -16,17 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7c1881-64a4-4e0f-a7b5-c7a6297544f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" afterDir="false" />
+    <list default="true" id="7d7c1881-64a4-4e0f-a7b5-c7a6297544f0" name="Default Changelist" comment="shipping">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,8 +199,17 @@
       <workItem from="1604662734444" duration="716000" />
       <workItem from="1604665183359" duration="6702000" />
       <workItem from="1604689017164" duration="9164000" />
-      <workItem from="1604828727568" duration="8325000" />
+      <workItem from="1604828727568" duration="9545000" />
+      <workItem from="1604916805667" duration="1217000" />
     </task>
+    <task id="LOCAL-00001" summary="shipping">
+      <created>1604849571287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604849571287</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +241,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="shipping" />
+    <option name="LAST_COMMIT_MESSAGE" value="shipping" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1604175919127">
@@ -247,10 +253,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1604250145157" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604693396162">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1604849595185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1604693396162" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1604849595185" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
