@@ -13,7 +13,8 @@ class ShippingsRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
+
     }
 
     /**
@@ -24,7 +25,19 @@ class ShippingsRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'id' => 'required|exists:settings',
+            'value' => 'required',
+            'plain_value' => 'required|numeric'
+
+        ];
+    }
+
+    public function messages()
+    {
+        return [
+//            'id.required' => ' يجب أدخال البريد الالكترونى',
+            'value.required' => 'يجب ادخال نوع الشحن',
+            'plain_value.required' => 'يجب أدخال قيمة الشحن'
         ];
     }
 }

@@ -26,4 +26,15 @@ class LoginController extends Controller
            //notify()->error('خطاء فى البينات برجاء المحاولة مجدادا');
            return redirect()->back()->with(['error'=>'هناك خطاء بالبيانات']);
     }
+    public function logout()
+    {
+        $guard =$this->getGuard();
+        $guard -> logout();
+        return redirect()->route('admin.login');
+    }
+
+    private function getGuard()
+    {
+        return auth('admin');
+    }
 }
