@@ -9,8 +9,7 @@
                         <div class="breadcrumb-wrapper col-12">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="">{{__('admin/setting.home')}}</a></li>
-                                <li class="breadcrumb-item active">{{__('admin/setting.shippingmethod')}}
-                                </li>
+                                <li class="breadcrumb-item active">{{__('admin/setting.profile')}}</li>
                             </ol>
                         </div>
                     </div>
@@ -23,7 +22,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title" id="basic-layout-form"> {{__('admin/setting.editshippingmethod')}}</h4>
+                                    <h4 class="card-title" id="basic-layout-form">{{__('admin/setting.editprofile')}}</h4>
                                     <a class="heading-elements-toggle"><i
                                             class="la la-ellipsis-v font-medium-3"></i></a>
                                     <div class="heading-elements">
@@ -39,48 +38,78 @@
                                 @include('dashboard.includes.alerts.errors')
                                 <div class="card-content collapse show">
                                     <div class="card-body">
-                                        <form class="form" action="{{route('update.shipping.methods',$shippingMethod -> id)}}"
+                                        <form class="form" action="{{route('update.profile')}}"
                                               method="post"
                                               enctype="multipart/form-data">
                                             @csrf
                                             @method('PUT')
-                                            <input type="hidden" name="id" value="{{$shippingMethod -> id}}">
+                                            <input type="hidden" name="id" value="{{$admin -> id}}">
                                             <div class="form-body">
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1"> {{__('admin/setting.name')}} </label>
-                                                            <input type="text" value="{{$shippingMethod -> value}}" id="name"
+                                                            <label for="projectinput1">{{__('admin/setting.name')}}</label>
+                                                            <input type="text" value="{{$admin -> name}}" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
-                                                                   name="value">
-                                                            @error("value")
+                                                                   name="name">
+                                                            @error("name")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.shippingprice')}}</label>
-                                                            <input type="number" value="{{$shippingMethod -> plain_value}}" id="plain_value"
+                                                            <label for="projectinput1">{{__('admin/setting.email')}}</label>
+                                                            <input type="email" value="{{$admin -> email}}" id="email"
                                                                    class="form-control"
                                                                    placeholder="  "
-                                                                   name="plain_value">
-                                                            @error("plain_value")
+                                                                   name="email">
+                                                            @error("email")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="projectinput1">{{__('admin/setting.newpassword')}}</label>
+                                                            <input type="password" value="" id="password"
+                                                                   class="form-control"
+                                                                   placeholder="  "
+                                                                   name="password">
+                                                            @error("password")
+                                                            <span class="text-danger">{{$message}}</span>
+                                                            @enderror
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="projectinput1">{{__('admin/setting.confirmpassword')}}</label>
+                                                            <input type="password" value="" id="password-confirmation"
+                                                                   class="form-control"
+                                                                   placeholder="  "
+                                                                   name="password-confirmation">
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <div class="form-actions">
-                                                    <button type="button" class="btn btn-warning mr-1"
-                                                            onclick="history.back();">
-                                                        <i class="ft-x"></i> {{__('admin/setting.back')}}
-                                                    </button>
                                                     <button type="submit" class="btn btn-primary">
-                                                        <i class="la la-check-square-o"></i> {{__('admin/setting.save')}}
+                                                        <i class="la la-check-square-o"></i>{{__('admin/setting.save')}}
                                                     </button>
                                                 </div>
+                                            </div>
+                                            <div class="pswd_validate" id="pswd_info">
+                                                <h4>{{__('admin/setting.passwordrequirements')}}</h4>
+                                                <ul>
+                                                    <li id="letter" class="invalid">{{__('admin/setting.atleastoneletter')}}</li>
+                                                    <li id="capital" class="invalid">{{__('admin/setting.atleastonecapitalletter')}}</li>
+                                                    <li id="number" class="invalid">{{__('admin/setting.atleastonenumber')}}</li>
+                                                    <li id="length" class="invalid">{{__('admin/setting.beatleast8characters')}}</li>
+                                                    <li id="simbol" class="invalid">{{__('admin/setting.atleastonesimbol($@#)')}}</li>
+                                                </ul>
                                             </div>
                                         </form>
                                     </div>
