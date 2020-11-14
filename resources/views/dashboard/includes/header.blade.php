@@ -28,19 +28,8 @@
                                 class="ficon ft-maximize"></i></a></li>
                 </ul>
                 <ul class="nav navbar-nav float-right">
-                    <li class="dropdown dropdown-user nav-item">
-                        <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
-                <span class="mr-1">{{__('admin/setting.hello')}}<span
-                      class="user-name text-bold-700">{{auth('admin')->user()->name}}</span>
-                </span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="{{route('edit.profile')}}"><i
-                                    class="ft-user"></i>{{__('admin/setting.profile')}}</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{route('admin.logout')}}"><i class="ft-power"></i>{{__('admin/setting.logout')}}</a>
-                        </div>
-                    </li>
-                    <li class="dropdown dropdown-user nav-item">
+
+                    <li class="dropdown dropdown-user nav-item" style="padding-top: 5px;">
                         <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
                         <span class="mr-1">
                           <span
@@ -244,6 +233,16 @@
                             <li class="dropdown-menu-footer"><a class="dropdown-item text-muted text-center"
                                                                 href="javascript:void(0)">Read all messages</a></li>
                         </ul>
+                    </li>
+                    <li class="dropdown dropdown-user nav-item" style="padding-top: 5px;">
+                        <a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
+                        <span class="user-name text-bold-700">{{auth('admin')->user()->name}}</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right"><a class="dropdown-item" href="{{route('edit.profile')}}"><i
+                                    class="ft-user"></i>{{__('admin/setting.profile')}}</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{route('admin.logout')}}"><i class="ft-power"></i>{{__('admin/setting.logout')}}</a>
+                        </div>
                     </li>
                 </ul>
             </div>

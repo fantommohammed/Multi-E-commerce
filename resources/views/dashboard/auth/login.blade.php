@@ -33,7 +33,7 @@
                                 <fieldset class="form-group position-relative has-icon-left">
                                     <input type="password" name="password" class="form-control form-control-lg input-lg"
                                            id="user-password"
-                                           placeholder="{{__('admin/setting.enterpassword')}}">
+                                           placeholder="{{__('admin/setting.enterpassword')}}"><span toggle="#password-field" class="bx bx-show bx-md login-pwd"></span>
                                     <div class="form-control-position">
                                         <i class="la la-key"></i>
                                     </div>
@@ -43,6 +43,10 @@
                                 </fieldset>
                                 <div class="form-group row">
                                     <div class="col-md-6 col-12 text-center text-md-left">
+{{--                                        <fieldset>--}}
+{{--                                            <input type="checkbox" class="show_pwd" id="show_pwd" >--}}
+{{--                                            {{__('admin/setting.show')}}{{__('admin/setting.password')}}--}}
+{{--                                        </fieldset>--}}
                                         <fieldset>
                                             <input type="checkbox" name="remember_me" id="remember-me"
                                                    class="chk-remember">

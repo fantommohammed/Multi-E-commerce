@@ -38,5 +38,36 @@ $(document).ready(function() {
     }).blur(function() {
         $('#pswd_info').hide();
     });
+    function myFunction()
+    {
 
+    }
+    $(".edit-pwd").click(function() {
+
+        $(this).toggleClass("bx-show bx-hide");
+        const input = $($(this).attr("toggle"));
+        const x = document.getElementById("password");
+        const z = document.getElementById("password-confirmation");
+            if (x.type === "password") {
+                x.type = "text";
+            } else {
+                x.type = "password";
+            }
+        if (z.type === "password") {
+            z.type = "text";
+        } else {
+            z.type = "password";
+        }
+    });
+    $(".login-pwd").click(function() {
+
+        $(this).toggleClass("bx-show bx-hide");
+        const input = $($(this).attr("toggle"));
+        const x = document.getElementById("user-password");
+        if (x.type === "password") {
+            x.type = "text";
+        } else {
+            x.type = "password";
+        }
+    });
 });

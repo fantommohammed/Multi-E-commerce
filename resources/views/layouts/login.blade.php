@@ -34,6 +34,9 @@
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css-rtl/style-rtl.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/boxicons/css/boxicons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/style.css')}}">
+
     <!-- END Custom CSS-->
     @notify_css
     <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">s
@@ -71,6 +74,8 @@
 <!-- BEGIN PAGE LEVEL JS-->
 <script src="{{asset('assets/admin/js/scripts/forms/form-login-register.js')}}" type="text/javascript"></script>
 <!-- END PAGE LEVEL JS-->
+<script src="{{asset('assets/script.js')}}"></script>
+
 
 <script>
 

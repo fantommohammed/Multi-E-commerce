@@ -48,10 +48,12 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/cryptocoins/cryptocoins.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/extensions/datedropper.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/extensions/timedropper.min.css')}}">
-{{--    <link rel="stylesheet" type="text/css" href="{{asset('assets/style.css')}}">--}}
     <!-- END Page Level CSS-->
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/boxicons/css/boxicons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css-rtl/style-rtl.css')}}">
+
     <!-- END Custom CSS-->
     @notify_css
     @yield('style')

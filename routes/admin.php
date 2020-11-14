@@ -35,7 +35,30 @@ Route::group([
                     Route::get('edit','ProfileController@editProfile')->name('edit.profile');
                     Route::put('update','ProfileController@updateProfile')->name('update.profile');
                 });
+                ######################### Begin Main Categoris Routes ########################
+                Route::group(['prefix' => 'main_categories'], function () {
+                    Route::get('/','MainCategoriesController@index') -> name('admin.maincategories');
+                    Route::get('create','MainCategoriesController@create') -> name('admin.maincategories.create');
+                    Route::post('store','MainCategoriesController@store') -> name('admin.maincategories.store');
+                    Route::get('edit/{id}','MainCategoriesController@edit') -> name('admin.maincategories.edit');
+                    Route::post('update/{id}','MainCategoriesController@update') -> name('admin.maincategories.update');
+                    Route::get('delete/{id}','MainCategoriesController@destroy') -> name('admin.maincategories.delete');
+                    Route::resource('category', 'MainCategoriesController');
 
+                });
+                ######################### End  Main Categories Routes  ########################
+                ######################### Begin sub Categoris Routes ########################
+                Route::group(['prefix' => 'sub_categories'], function () {
+                    Route::get('/','SubCategoriesController@index') -> name('admin.subcategories');
+                    Route::get('create','SubCategoriesController@create') -> name('admin.subcategories.create');
+                    Route::post('store','SubCategoriesController@store') -> name('admin.subcategories.store');
+                    Route::get('edit/{id}','SubCategoriesController@edit') -> name('admin.subcategories.edit');
+                    Route::post('update/{id}','SubCategoriesController@update') -> name('admin.subcategories.update');
+                    Route::get('delete/{id}','SubCategoriesController@destroy') -> name('admin.subcategories.delete');
+                    Route::resource('category', 'SubCategoriesController');
+
+                });
+                ######################### End  sub Categories Routes  ########################
             });
 
             Route::group(['namespace' => 'Dashboard','middleware' => 'guest:admin','prefix'=>'admin'],function()
