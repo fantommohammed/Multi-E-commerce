@@ -7,11 +7,13 @@
                     <div class="row breadcrumbs-top">
                         <div class="breadcrumb-wrapper col-12">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">{{__('admin/setting.home')}}</a>
+                                <li class="breadcrumb-item"><a
+                                        href="{{route('admin.dashboard')}}">{{__('admin/setting.home')}}</a>
                                 </li>
-                                <li class="breadcrumb-item"><a href="{{route('admin.maincategories')}}">{{__('admin/setting.ِmaincategories')}}</a>
+                                <li class="breadcrumb-item"><a
+                                        href="{{route('admin.brands')}}">{{__('admin/setting.brands')}}</a>
                                 </li>
-                                <li class="breadcrumb-item active">{{__('admin/setting.addnewmaincategories')}}
+                                <li class="breadcrumb-item active">{{__('admin/setting.addnewbrand')}}
                                 </li>
                             </ol>
                         </div>
@@ -25,7 +27,8 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title" id="basic-layout-form"> {{__('admin/setting.addnewmaincategories')}}</h4>
+                                    <h4 class="card-title"
+                                        id="basic-layout-form"> {{__('admin/setting.addnewbrand')}}</h4>
                                     <a class="heading-elements-toggle"><i
                                             class="la la-ellipsis-v font-medium-3"></i></a>
                                     <div class="heading-elements">
@@ -42,19 +45,20 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body">
                                         <form class="form"
-                                              action="{{route('admin.maincategories.store')}}"
+                                              action="{{route('admin.brands.store')}}"
                                               method="POST"
                                               enctype="multipart/form-data">
                                             @csrf
                                             <div class="form-group">
                                                 <div class="text-center">
                                                     <img
-                                                        src=""
-                                                        class="rounded-circle  height-150" alt="{{__('admin/setting.maincategoriespicture')}}">
+                                                        src="{{old('photo')}}"
+                                                        class="rounded-circle  height-150"
+                                                        alt="{{__('admin/setting.brandpicture')}}">
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label>{{__('admin/setting.maincategoriespicture')}}</label>
+                                                <label>{{__('admin/setting.brandpicture')}}</label>
                                                 <label id="projectinput7" class="file center-block">
                                                     <input type="file" id="file" name="photo">
                                                     <span class="file-custom"></span>
@@ -64,11 +68,13 @@
                                                 @enderror
                                             </div>
                                             <div class="form-body">
-                                                <h4 class="form-section"><i class="ft-home"></i> {{__('admin/setting.maincategoriesdata')}}</h4>
+                                                <h4 class="form-section"><i class="ft-home"></i>{{__('admin/setting.branddata')}}</h4>
+
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.maincategoriesname')}}</label>
+                                                            <label
+                                                                for="projectinput1">{{__('admin/setting.brandname')}}</label>
                                                             <input type="text" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
@@ -79,21 +85,6 @@
                                                             @enderror
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-6">
-                                                        <div class="form-group">
-                                                            <label for="projectinput1"> {{__('admin/setting.slugname')}}</label>
-                                                            <input type="text" id="name"
-                                                                   class="form-control"
-                                                                   placeholder="  "
-                                                                   value="{{old('slug')}}"
-                                                                   name="slug">
-                                                            @error("slug")
-                                                            <span class="text-danger">{{$message}}</span>
-                                                            @enderror
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group mt-1">
                                                             <input type="checkbox" value="1"
@@ -108,7 +99,21 @@
                                                             @enderror
                                                         </div>
                                                     </div>
+                                                    {{--                                                    <div class="col-md-6">--}}
+                                                    {{--                                                        <div class="form-group">--}}
+                                                    {{--                                                            <label for="projectinput1"> {{__('admin/setting.slugname')}}</label>--}}
+                                                    {{--                                                            <input type="text" id="name"--}}
+                                                    {{--                                                                   class="form-control"--}}
+                                                    {{--                                                                   placeholder="  "--}}
+                                                    {{--                                                                   value="{{old('slug')}}"--}}
+                                                    {{--                                                                   name="slug">--}}
+                                                    {{--                                                            @error("slug")--}}
+                                                    {{--                                                            <span class="text-danger">{{$message}}</span>--}}
+                                                    {{--                                                            @enderror--}}
+                                                    {{--                                                        </div>--}}
+                                                    {{--                                                    </div>--}}
                                                 </div>
+
                                             </div>
                                             <div class="form-actions">
                                                 <button type="button" class="btn btn-warning mr-1"

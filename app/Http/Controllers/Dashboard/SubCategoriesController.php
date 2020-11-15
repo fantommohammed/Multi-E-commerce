@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\MainCategoryRequest;
 use App\Http\Requests\SubCategoryRequest;
 use App\Models\Category;
 use Illuminate\Http\Request;
@@ -80,7 +79,7 @@ class SubCategoriesController extends Controller
         return view('dashboard.subcategories.create',compact('categories'));
     }
 
-    public function store(Request $request)
+    public function store(SubCategoryRequest $request)
     {
         try
         {

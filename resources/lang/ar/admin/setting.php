@@ -97,6 +97,10 @@ return [
     'plzmaincategoriesselect' => 'من فضلك اختر القسم',
     'brands' => 'المركات',
     'addnewbrand' => 'اضافة ماركة جديدة',
-
+    'ِallbrandcategories' => 'جميع المركات',
+    'brandpicture' => 'صورة المركة',
+    'branddata' => 'بيانات المركة التجارية',
+    'brandname' => 'اسم المركة',
+    'editbrand' => 'تعديل المركة',
 
 ];

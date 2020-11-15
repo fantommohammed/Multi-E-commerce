@@ -11,7 +11,7 @@
                                 </li>
                                 <li class="breadcrumb-item"><a href="{{route('admin.maincategories')}}">{{__('admin/setting.ِmaincategories')}}</a>
                                 </li>
-                                <li class="breadcrumb-item active">{{__('admin/setting.addnewmaincategories')}}
+                                <li class="breadcrumb-item active"> {{__('admin/setting.edit')}} - {{$category -> name}}
                                 </li>
                             </ol>
                         </div>
@@ -25,7 +25,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title" id="basic-layout-form"> {{__('admin/setting.addnewmaincategories')}}</h4>
+                                    <h4 class="card-title" id="basic-layout-form">{{__('admin/setting.editmaincategories')}}</h4>
                                     <a class="heading-elements-toggle"><i
                                             class="la la-ellipsis-v font-medium-3"></i></a>
                                     <div class="heading-elements">
@@ -42,10 +42,13 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body">
                                         <form class="form"
-                                              action="{{route('admin.maincategories.store')}}"
+                                              action="{{route('admin.maincategories.update',$category -> id)}}"
                                               method="POST"
                                               enctype="multipart/form-data">
                                             @csrf
+
+                                            <input name="id" value="{{$category -> id}}" type="hidden">
+
                                             <div class="form-group">
                                                 <div class="text-center">
                                                     <img
@@ -53,6 +56,8 @@
                                                         class="rounded-circle  height-150" alt="{{__('admin/setting.maincategoriespicture')}}">
                                                 </div>
                                             </div>
+
+
                                             <div class="form-group">
                                                 <label>{{__('admin/setting.maincategoriespicture')}}</label>
                                                 <label id="projectinput7" class="file center-block">
@@ -63,16 +68,18 @@
                                                 <span class="text-danger">{{$message}}</span>
                                                 @enderror
                                             </div>
+
                                             <div class="form-body">
-                                                <h4 class="form-section"><i class="ft-home"></i> {{__('admin/setting.maincategoriesdata')}}</h4>
+
+                                                <h4 class="form-section"><i class="ft-home"></i>{{__('admin/setting.maincategoriesdata')}}</h4>
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.maincategoriesname')}}</label>
+                                                            <label for="projectinput1"> {{__('admin/setting.maincategoriesname')}}</label>
                                                             <input type="text" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
-                                                                   value="{{old('name')}}"
+                                                                   value="{{$category -> name}}"
                                                                    name="name">
                                                             @error("name")
                                                             <span class="text-danger">{{$message}}</span>
@@ -85,7 +92,7 @@
                                                             <input type="text" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
-                                                                   value="{{old('slug')}}"
+                                                                   value="{{$category -> slug}}"
                                                                    name="slug">
                                                             @error("slug")
                                                             <span class="text-danger">{{$message}}</span>
@@ -100,9 +107,10 @@
                                                                    name="is_active"
                                                                    id="switcheryColor4"
                                                                    class="switchery" data-color="success"
-                                                                   checked/>
+                                                                   @if($category -> is_active == 1)checked @endif/>
                                                             <label for="switcheryColor4"
                                                                    class="card-title ml-1">{{__('admin/setting.status')}}</label>
+
                                                             @error("is_active")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
@@ -110,13 +118,15 @@
                                                     </div>
                                                 </div>
                                             </div>
+
+
                                             <div class="form-actions">
                                                 <button type="button" class="btn btn-warning mr-1"
                                                         onclick="history.back();">
                                                     <i class="ft-x"></i>{{__('admin/setting.back')}}
                                                 </button>
                                                 <button type="submit" class="btn btn-primary">
-                                                    <i class="la la-check-square-o"></i> {{__('admin/setting.update')}}
+                                                    <i class="la la-check-square-o"></i>{{__('admin/setting.update')}}
                                                 </button>
                                             </div>
                                         </form>

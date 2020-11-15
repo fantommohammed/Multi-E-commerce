@@ -98,7 +98,10 @@ return [
     'brands' => 'Brands',
     'addnewbrand' => 'Add new brands',
     'ِallbrandcategories' => 'All brands',
-
+    'brandpicture' => 'Brand picture',
+    'branddata' => 'brand data',
+    'brandname' => 'brand name',
+    'editbrand' => 'Edit brand',
 
 
 ];

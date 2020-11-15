@@ -79,7 +79,7 @@ class MainCategoriesController extends Controller
         return view('dashboard.categories.create');
     }
 
-    public function store(Request $request)
+    public function store(MainCategoriesController $request)
     {
         try
         {

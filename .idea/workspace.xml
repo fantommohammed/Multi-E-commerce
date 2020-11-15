@@ -19,23 +19,28 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d7c1881-64a4-4e0f-a7b5-c7a6297544f0" name="Default Changelist" comment="shipping">
+    <list default="true" id="7d7c1881-64a4-4e0f-a7b5-c7a6297544f0" name="Default Changelist" comment="end category">
       <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/BrandsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/BrandRequest.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/Brand.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/Models/BrandTranslation.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_14_223848_create_brands_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_14_224040_create_brand_translations_table.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_15_145355_add_photo_column_to_brands_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/brands/CT9uUaJhg2cxZA78RGv6nj6zTBssWgG1xl6PLfb4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/brands/kd1VxtSUML5pQHgLarAYm4PWNnY2TNT4ZnOoi79G.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/brands/mqY7xFhkJ7ia7NV2Svcbjk1Y8g3fkkQL2tyTlmkV.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/dashboard/brands/create.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/dashboard/brands/edit.blade.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/resources/views/dashboard/brands/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Helpers/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/MainCategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SubCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SubCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/setting.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/subcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/subcategories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +176,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last.edited.regexp" value="Sample Text" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/dashboard" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Http/Requests" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -181,9 +186,9 @@
       <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\app\Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\app\Http\Requests" />
       <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\resources\views\dashboard" />
       <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\app\Http\Controllers\Dashboard" />
-      <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\app\Http\Requests" />
       <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\database\seeds" />
       <recent name="E:\fullstack\Multi-E-commerce\Multi-E-commerce\resources\views\dashboard\categories" />
     </key>
@@ -222,7 +227,7 @@
       <workItem from="1605119562332" duration="1985000" />
       <workItem from="1605174517724" duration="7809000" />
       <workItem from="1605211593698" duration="51136000" />
-      <workItem from="1605388192685" duration="12856000" />
+      <workItem from="1605388192685" duration="21023000" />
     </task>
     <task id="LOCAL-00001" summary="shipping">
       <created>1604849571287</created>
@@ -238,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605389698121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="end category">
+      <created>1605452504346</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605452504346</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="shipping" />
-    <option name="LAST_COMMIT_MESSAGE" value="shipping" />
+    <MESSAGE value="end category" />
+    <option name="LAST_COMMIT_MESSAGE" value="end category" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="42" key="#Inspections" timestamp="1604175919127">
@@ -298,10 +311,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605097787996" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605389710132">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605452514093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605389710132" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605452514093" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605371217620">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
