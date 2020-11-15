@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use DB;
 class SubCategoriesController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
         $categories = Category::child()->orderBy('id','DESC')->paginate(PAGINATION_COUNT);
         return view ('dashboard.subcategories.index',compact('categories'));

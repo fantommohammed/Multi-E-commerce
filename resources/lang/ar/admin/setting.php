@@ -90,9 +90,13 @@ return [
     'subcategorypicture' => 'صوره القسم الفرعى',
     'subcategorydata' => 'بيانات القسم الفرعى',
     'subcategoryname' => 'اسم القسم الفرعى',
+    'maincategoryname' => 'اسم القسم الرائيسى',
     'editsubcategories' => 'تعديل قسم فرعى ',
     'subcategory' => 'قسم فرعى',
     'maincategoriesselect' => 'أختر القسم',
     'plzmaincategoriesselect' => 'من فضلك اختر القسم',
+    'brands' => 'المركات',
+    'addnewbrand' => 'اضافة ماركة جديدة',
+
 
 ];

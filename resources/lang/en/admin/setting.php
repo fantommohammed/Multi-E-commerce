@@ -76,7 +76,7 @@ return [
     'password' => 'password',
     'ِallsubcategories' => 'ِAll subcategories',
     'subcategories' => 'Subcategories',
-    'ِallmaincategories' => 'ِAll main categories',
+    'ِallmaincategories' => 'All main categories',
     'ِmaincategories' => 'Main categories',
     'showall' => 'Show all',
     'addnewmaincategories' => 'Add new maincategory',
@@ -94,6 +94,10 @@ return [
     'subcategory' => 'subcategory',
     'maincategoriesselect' => 'Select maincategory',
     'plzmaincategoriesselect' => 'Please select maincategory',
+    'maincategoryname' => 'Main category name',
+    'brands' => 'Brands',
+    'addnewbrand' => 'Add new brands',
+    'ِallbrandcategories' => 'All brands',
 
 
 

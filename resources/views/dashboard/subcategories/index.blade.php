@@ -38,6 +38,18 @@
                                     </div>
                                     <div>
                                         {!! $categories->links() !!}
+{{--                                        {{$categories->count()}}--}}
+                                        Page {{$categories->currentPage()}} from {{$categories->lastPage()}} pages
+
+{{--                                        {{$categories->firstItem()}}--}}
+{{--                                        {{$categories->hasMorePages()}}--}}
+{{--                                        {{$categories->lastItem()}}--}}
+{{--                                        {{$categories->lastPage()}}--}}
+{{--                                        {{$categories->nextPageUrl()}}--}}
+{{--                                        {{$categories->perPage()}}--}}
+{{--                                        {{$categories->previousPageUrl()}}--}}
+{{--                                        {{$categories->total()}}--}}
+{{--                                        {{$categories->url($page)}}--}}
                                     </div>
                                 </div>
                                 @include('dashboard.includes.alerts.success')
@@ -45,10 +57,11 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body card-dashboard">
                                         <table
-                                            class="table display nowrap table-striped table-bordered scroll-horizontal">
+                                            class="table display nowrap table-striped table-bordered w-100 scroll-horizontal">
                                             <thead class="">
                                             <tr>
                                                 <th>{{__('admin/setting.name')}}</th>
+                                                <th>{{__('admin/setting.maincategoryname')}}</th>
                                                 <th> {{__('admin/setting.linkname')}}</th>
                                                 <th>{{__('admin/setting.status')}}</th>
                                                 <th>{{__('admin/setting.subcategorypicture')}}</th>
@@ -60,11 +73,12 @@
                                                 @foreach($categories as $category)
                                                     <tr>
                                                         <td>{{$category -> name}}</td>
+                                                        <td>{{$category -> _parent->name}}</td>
                                                         <td>{{$category -> slug}}</td>
                                                         <td>{{$category -> getActive()}}</td>
                                                         <td><img style="width: 150px; height: 100px;" src=""></td>
                                                         <td>
-                                                            <div class="btn-group" role="group"
+                                                            <div class="btn-group d-flex flex-column" role="group"
                                                                  aria-label="Basic example">
                                                                 <a href="{{route('admin.subcategories.edit',$category -> id)}}"
                                                                    class="btn btn-outline-primary btn-min-width box-shadow-3 mr-1 mb-1">{{__('admin/setting.edit')}}</a>

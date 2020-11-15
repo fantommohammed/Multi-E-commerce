@@ -2,7 +2,7 @@
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
 
-            <li class="nav-item active"><a href="{{route('admin.dashboard')}}"><i class="la la-mouse-pointer"></i><span
+            <li class="nav-item active"><a href="{{route('admin.dashboard')}}"><i class='bx bx-store'></i><span
                         class="menu-title" data-i18n="nav.add_on_drag_drop.main">{{__('admin/setting.home')}}</span></a>
             </li>
 
@@ -51,20 +51,19 @@
                 </ul>
             </li>
 
-{{--            <li class="nav-item"><a href=""><i class="la la-male"></i>--}}
-{{--                    <span class="menu-title" data-i18n="nav.dash.main">المتاجر  </span>--}}
-{{--                    <span--}}
-{{--                        class="badge badge badge-success badge-pill float-right mr-2"></span>--}}
-{{--                </a>--}}
-{{--                <ul class="menu-content">--}}
-{{--                    <li class="active"><a class="menu-item" href=""--}}
-{{--                                          data-i18n="nav.dash.ecommerce"> عرض الكل </a>--}}
-{{--                    </li>--}}
-{{--                    <li><a class="menu-item" href=" " data-i18n="nav.dash.crypto">أضافة--}}
-{{--                            متجر  </a>--}}
-{{--                    </li>--}}
-{{--                </ul>--}}
-{{--            </li>--}}
+            <li class="nav-item"><a href=""><i class="la la-male"></i>
+                    <span class="menu-title" data-i18n="nav.dash.main">{{__('admin/setting.brands')}}</span>
+                    <span
+                        class="badge badge badge-success badge-pill float-right mr-2">{{\App\Models\Brand::count()}}</span>
+                </a>
+                <ul class="menu-content">
+                    <li class="active"><a class="menu-item" href="{{route('admin.brands')}}"
+                                          data-i18n="nav.dash.ecommerce">{{__('admin/setting.showall')}}</a>
+                    </li>
+                    <li><a class="menu-item" href="{{route('admin.brands.create')}}" data-i18n="nav.dash.crypto">{{__('admin/setting.addnewbrand')}}</a>
+                    </li>
+                </ul>
+            </li>
 
 
 {{--            <li class="nav-item"><a href=""><i class="la la-male"></i>--}}
