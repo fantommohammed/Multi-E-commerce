@@ -62,7 +62,7 @@ class MainCategoriesController extends Controller
     {
         try
         {
-            $category = Category::orderBy('id','DESC')->find($id);
+            $category = Category::find($id);
             if (!$category)
                 return redirect()->route('admin.maincategories')->with(['error' => 'هذا القسم غير موجود ']);
             $category->delete();

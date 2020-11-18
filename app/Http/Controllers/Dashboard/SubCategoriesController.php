@@ -61,7 +61,7 @@ class SubCategoriesController extends Controller
     {
         try
         {
-            $category = Category::child()->orderBy('id','DESC')->find($id);
+            $category = Category::child()->find($id);
             if (!$category)
                 return redirect()->route('admin.subcategories')->with(['error' => 'هذا القسم غير موجود ']);
             $category->delete();

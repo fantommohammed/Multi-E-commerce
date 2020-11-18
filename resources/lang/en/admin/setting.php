@@ -102,6 +102,7 @@ return [
     'branddata' => 'brand data',
     'brandname' => 'brand name',
     'editbrand' => 'Edit brand',
+    'editbrand' => 'Edit brand',
 
 
 ];

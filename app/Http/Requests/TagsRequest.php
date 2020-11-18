@@ -4,16 +4,8 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class BrandRequest extends FormRequest
+class TagsRequest extends FormRequest
 {
-    /**
-     * @var mixed
-     */
-    /**
-     * @var mixed
-     */
-
-
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -32,8 +24,9 @@ class BrandRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'photo' => 'required_without:id|mimes:jpg,jpeg,png'
+             'name' => 'required',
+             'slug' => 'required|unique:tags,slug,'.$this -> id
         ];
     }
+
 }
