@@ -36,7 +36,7 @@
           showCharsTyped: true, // show the number of characters typed and not the number of characters remaining
           validate: false, // if the browser doesn't support the maxlength attribute, attempt to type more than
           // the indicated chars, will be prevented.
-          utf8: false, // counts using bytesize rather than length. eg: '£' is counted as 2 characters.
+          utf8: false, // counts using bytesize rather than length. eg: 'Â£' is counted as 2 characters.
           appendToParent: false, // append the indicator to the input field's parent instead of body
           twoCharLinebreak: true,  // count linebreak as 2 characters to match IE/Chrome textarea validation. As well as DB storage.
           customMaxAttribute: null,  // null = use maxlength attribute and browser functionality, string = use specified attribute instead.
@@ -49,34 +49,6 @@
         options = {};
       }
       options = $.extend(defaults, options);
-
-
-      /**
-      * Return the byte count of the specified character in UTF8 encoding.
-      * Note: This won't cover UTF-8 characters that are 4 bytes long.
-      *
-      * @param input
-      * @return {number}
-      */
-      function utf8CharByteCount(character) {
-        var c = character.charCodeAt();
-        // Not c then 0, else c < 128 then 1, else c < 2048 then 2, else 3
-        return !c ? 0 : c < 128 ? 1 : c < 2048 ? 2 : 3;
-      }
-
-      /**
-      * Return the length of the specified input in UTF8 encoding.
-      *
-      * @param input
-      * @return {number}
-      */
-      function utf8Length(string) {
-        return string.split("")
-          .map(utf8CharByteCount)
-          // Prevent reduce from throwing an error if the string is empty.
-          .concat(0)
-          .reduce(function(sum, val) { return sum + val; });
-      }
 
       /**
       * Return the length of the specified input.
@@ -113,40 +85,53 @@
       */
       function truncateChars(input, maxlength) {
         var text = input.val();
+        var newlines = 0;
 
         if (options.twoCharLinebreak) {
           text = text.replace(/\r(?!\n)|\n(?!\r)/g, '\r\n');
 
-          if (text[text.length - 1] === '\n') {
-            maxlength -= text.length % 2;
+          if (text.substr(text.length - 1) === '\n' && text.length % 2 === 1) {
+            newlines = 1;
           }
         }
 
-        if (options.utf8) {
-          var indexedSize = text.split("").map(utf8CharByteCount);
-          for (
-            var removedBytes = 0,
-                bytesPastMax = utf8Length(text) - maxlength
-            ;removedBytes < bytesPastMax
-            ;removedBytes += indexedSize.pop()
-          );
-          maxlength -= (maxlength - indexedSize.length);
-        }
+        input.val(text.substr(0, maxlength - newlines));
+      }
 
-        input.val(text.substr(0, maxlength));
+      /**
+      * Return the length of the specified input in UTF8 encoding.
+      *
+      * @param input
+      * @return {number}
+      */
+      function utf8Length(string) {
+        var utf8length = 0;
+        for (var n = 0; n < string.length; n++) {
+          var c = string.charCodeAt(n);
+          if (c < 128) {
+            utf8length++;
+          }
+          else if ((c > 127) && (c < 2048)) {
+            utf8length = utf8length + 2;
+          }
+          else {
+            utf8length = utf8length + 3;
+          }
+        }
+        return utf8length;
       }
 
       /**
        * Return true if the indicator should be showing up.
        *
        * @param input
-       * @param threshold
+       * @param thereshold
        * @param maxlength
        * @return {number}
        */
-      function charsLeftThreshold(input, threshold, maxlength) {
+      function charsLeftThreshold(input, thereshold, maxlength) {
         var output = true;
-        if (!options.alwaysShow && (maxlength - inputLength(input) > threshold)) {
+        if (!options.alwaysShow && (maxlength - inputLength(input) > thereshold)) {
           output = false;
         }
         return output;
@@ -282,43 +267,6 @@
       }
 
       /**
-       * This function places the maxLengthIndicator based on placement config object.
-       *
-       * @param {object} placement
-       * @param {$} maxLengthIndicator
-       * @return null
-       *
-       */
-      function placeWithCSS(placement, maxLengthIndicator) {
-        if (!placement || !maxLengthIndicator){
-          return;
-        }
-
-        var POSITION_KEYS = [
-          'top',
-          'bottom',
-          'left',
-          'right',
-          'position'
-        ];
-
-        var cssPos = {};
-
-        // filter css properties to position
-        $.each(POSITION_KEYS, function (i, key) {
-          var val = options.placement[key];
-          if (typeof val !== 'undefined'){
-            cssPos[key] = val;
-          }
-        });
-
-        maxLengthIndicator.css(cssPos);
-
-        return;
-      }
-
-
-      /**
        * This function places the maxLengthIndicator at the
        * top / bottom / left / right of the currentInput
        *
@@ -396,6 +344,42 @@
             maxLengthIndicator.css({ top: pos.top + currentInput.outerHeight(), left: pos.left });
             break;
         }
+      }
+
+      /**
+       * This function places the maxLengthIndicator based on placement config object.
+       *
+       * @param {object} placement
+       * @param {$} maxLengthIndicator
+       * @return null
+       *
+       */
+      function placeWithCSS(placement, maxLengthIndicator) {
+        if (!placement || !maxLengthIndicator){
+          return;
+        }
+
+        var POSITION_KEYS = [
+          'top',
+          'bottom',
+          'left',
+          'right',
+          'position'
+        ];
+
+        var cssPos = {};
+
+        // filter css properties to position
+        $.each(POSITION_KEYS, function (i, key) {
+          var val = options.placement[key];
+          if (typeof val !== 'undefined'){
+            cssPos[key] = val;
+          }
+        });
+
+        maxLengthIndicator.css(cssPos);
+
+        return;
       }
 
       /**
@@ -506,7 +490,7 @@
         });
 
         currentInput.on('blur', function () {
-          if (maxLengthIndicator && !options.showOnReady) {
+          if (maxLengthIndicator && !options.showOnReady && !options.alwaysShow) {
             maxLengthIndicator.remove();
           }
         });

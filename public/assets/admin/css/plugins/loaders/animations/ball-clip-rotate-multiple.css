@@ -13,7 +13,7 @@
     position: absolute;
     left: -20px;
     top: -20px;
-    border: 2px solid #6B6F82;
+    border: 2px solid #6b6f82;
     border-bottom-color: transparent;
     border-top-color: transparent;
     border-radius: 100%;
@@ -27,5 +27,5 @@
       width: 15px;
       height: 15px;
       animation-duration: 0.5s;
-      border-color: #6B6F82 transparent #6B6F82 transparent;
+      border-color: #6b6f82 transparent #6b6f82 transparent;
       animation-direction: reverse; }

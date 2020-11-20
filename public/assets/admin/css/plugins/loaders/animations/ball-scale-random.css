@@ -6,7 +6,7 @@
     opacity: 0; } }
 
 .ball-scale > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -21,7 +21,7 @@
   width: 37px;
   height: 40px; }
   .ball-scale-random > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;

@@ -16,7 +16,7 @@
   animation: ball-pulse-sync 0.6s 0s infinite ease-in-out; }
 
 .ball-pulse-sync > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;

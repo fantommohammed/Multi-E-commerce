@@ -9,7 +9,7 @@
 .ball-rotate {
   position: relative; }
   .ball-rotate > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -19,7 +19,7 @@
     .ball-rotate > div:first-child {
       animation: rotate 1s 0s cubic-bezier(0.7, -0.13, 0.22, 0.86) infinite; }
     .ball-rotate > div:before, .ball-rotate > div:after {
-      background-color: #6B6F82;
+      background-color: #6b6f82;
       width: 15px;
       height: 15px;
       border-radius: 100%;

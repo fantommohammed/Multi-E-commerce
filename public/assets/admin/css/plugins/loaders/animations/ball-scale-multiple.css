@@ -15,7 +15,7 @@
   .ball-scale-multiple > div:nth-child(3) {
     animation-delay: -0.2s; }
   .ball-scale-multiple > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
