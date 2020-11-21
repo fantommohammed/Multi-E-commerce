@@ -3,7 +3,6 @@
     Description: Advanced Datatable 
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
     Author: PIXINVENT
     Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
@@ -17,7 +16,7 @@ $(document).ready(function() {
     var eventsTable = $('.dom-jQuery-events').DataTable();
 
     $('.dom-jQuery-events tbody').on('click', 'tr', function() {
-        var data = table.row(this).data();
+        var data = eventsTable.row(this).data();
         alert('You clicked on ' + data[0] + '\'s row');
     });
 
@@ -135,12 +134,12 @@ $(document).ready(function() {
     });
 
     $('.row-grouping tbody').on('click', 'tr.group', function() {
-        var currentOrder = table.order()[0];
+        var currentOrder = groupingTable.order()[0];
         if (currentOrder[0] === 2 && currentOrder[1] === 'asc') {
-            table.order([2, 'desc']).draw();
+            groupingTable.order([2, 'desc']).draw();
         }
         else {
-            table.order([2, 'asc']).draw();
+            groupingTable.order([2, 'asc']).draw();
         }
     });
 

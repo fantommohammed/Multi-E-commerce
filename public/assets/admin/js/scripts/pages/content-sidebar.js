@@ -3,7 +3,6 @@
     Description: Invoices list datables configurations
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
     Author: PIXINVENT
     Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
@@ -14,12 +13,17 @@ $(document).ready(function() {
     ************************************/
 
     var sm_options = {
-        start: [30,70],
+        start: [1000,3500],
         behaviour: 'drag',
         connect: true,
+        tooltips: [wNumb({
+            decimals: 0
+        }), wNumb({
+            decimals: 0
+        })],
         range: {
-            'min': 20,
-            'max': 80
+            'min': 100,
+            'max': 5000
         }
     };
     var smallSlider = document.getElementById('small-slider');
@@ -32,7 +36,8 @@ $(document).ready(function() {
     $.fn.raty.defaults.path = '../../../app-assets/images/raty/';
 
     $('#score-rating').raty({
-        score: 3
+        readOnly: true,
+        score: 4.5
     });
 
     if($(".sidebar-sticky").length){

@@ -3,7 +3,6 @@
     Description: Basic Datatable
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
     Author: PIXINVENT
     Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
@@ -52,7 +51,7 @@ $('.complex-headers').DataTable();
 *************************************/
 
 $('.dom-positioning').DataTable( {
-    "dom": '<"top"i>rt<"bottom"flp><"clear">'
+    "dom": '<"top"i>rt<"bottom mt-2"flp><"clear">'
 } );
 
 /************************************
