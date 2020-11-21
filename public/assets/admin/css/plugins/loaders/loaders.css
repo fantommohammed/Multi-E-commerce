@@ -289,7 +289,7 @@
   animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
 .ball-pulse > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -315,7 +315,7 @@
   animation: ball-pulse-sync 0.6s 0s infinite ease-in-out; }
 
 .ball-pulse-sync > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -331,7 +331,7 @@
     opacity: 0; } }
 
 .ball-scale > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -350,7 +350,7 @@
     opacity: 0; } }
 
 .ball-scale > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -365,7 +365,7 @@
   width: 37px;
   height: 40px; }
   .ball-scale-random > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -395,7 +395,7 @@
 .ball-rotate {
   position: relative; }
   .ball-rotate > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -405,7 +405,7 @@
     .ball-rotate > div:first-child {
       animation: rotate 1s 0s cubic-bezier(0.7, -0.13, 0.22, 0.86) infinite; }
     .ball-rotate > div:before, .ball-rotate > div:after {
-      background-color: #6B6F82;
+      background-color: #6b6f82;
       width: 15px;
       height: 15px;
       border-radius: 100%;
@@ -429,13 +429,13 @@
     transform: rotate(360deg) scale(1); } }
 
 .ball-clip-rotate > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
   margin: 2px;
   animation-fill-mode: both;
-  border: 2px solid #6B6F82;
+  border: 2px solid #6b6f82;
   border-bottom-color: transparent;
   height: 25px;
   width: 25px;
@@ -467,7 +467,7 @@
     left: 0px;
     border-radius: 100%; }
     .ball-clip-rotate-pulse > div:first-child {
-      background: #6B6F82;
+      background: #6b6f82;
       height: 16px;
       width: 16px;
       top: 7px;
@@ -475,14 +475,14 @@
       animation: scale 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; }
     .ball-clip-rotate-pulse > div:last-child {
       position: absolute;
-      border: 2px solid #6B6F82;
+      border: 2px solid #6b6f82;
       width: 30px;
       height: 30px;
       left: -16px;
       top: -2px;
       background: transparent;
       border: 2px solid;
-      border-color: #6B6F82 transparent #6B6F82 transparent;
+      border-color: #6b6f82 transparent #6b6f82 transparent;
       animation: rotate 1s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite;
       animation-duration: 1s; }
 
@@ -501,7 +501,7 @@
     position: absolute;
     left: -20px;
     top: -20px;
-    border: 2px solid #6B6F82;
+    border: 2px solid #6b6f82;
     border-bottom-color: transparent;
     border-top-color: transparent;
     border-radius: 100%;
@@ -515,7 +515,7 @@
       width: 15px;
       height: 15px;
       animation-duration: 0.5s;
-      border-color: #6B6F82 transparent #6B6F82 transparent;
+      border-color: #6b6f82 transparent #6b6f82 transparent;
       animation-direction: reverse; }
 
 @keyframes ball-scale-ripple {
@@ -533,7 +533,7 @@
   height: 50px;
   width: 50px;
   border-radius: 100%;
-  border: 2px solid #6B6F82;
+  border: 2px solid #6b6f82;
   animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8); }
 
 @keyframes ball-scale-ripple-multiple {
@@ -565,7 +565,7 @@
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    border: 2px solid #6B6F82;
+    border: 2px solid #6b6f82;
     animation: ball-scale-ripple-multiple 1.25s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8); }
 
 @keyframes ball-beat {
@@ -577,7 +577,7 @@
     transform: scale(1); } }
 
 .ball-beat > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -605,7 +605,7 @@
   .ball-scale-multiple > div:nth-child(3) {
     animation-delay: -0.2s; }
   .ball-scale-multiple > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -645,7 +645,7 @@
 
 .ball-triangle-path {
   position: relative;
-  transform: translate(-29.994001px, -37.509377px); }
+  transform: translate(-29.994px, -37.50938px); }
   .ball-triangle-path > div:nth-child(1) {
     animation-name: ball-triangle-path-1;
     animation-delay: 0;
@@ -670,7 +670,7 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    border: 1px solid #6B6F82; }
+    border: 1px solid #6b6f82; }
     .ball-triangle-path > div:nth-of-type(1) {
       top: 50px; }
     .ball-triangle-path > div:nth-of-type(2) {
@@ -706,7 +706,7 @@
     transform: scale(0.75); } }
 
 .ball-pulse-rise > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 15px;
   height: 15px;
   border-radius: 100%;
@@ -731,34 +731,34 @@
 .ball-grid-beat {
   width: 57px; }
   .ball-grid-beat > div:nth-child(1) {
-    animation-delay: 0.5s;
-    animation-duration: 1.36s; }
+    animation-delay: 0.62s;
+    animation-duration: 0.99s; }
   .ball-grid-beat > div:nth-child(2) {
-    animation-delay: 0.36s;
-    animation-duration: 1.12s; }
+    animation-delay: 0.02s;
+    animation-duration: 1.46s; }
   .ball-grid-beat > div:nth-child(3) {
-    animation-delay: 0.42s;
-    animation-duration: 0.64s; }
+    animation-delay: -0.06s;
+    animation-duration: 0.7s; }
   .ball-grid-beat > div:nth-child(4) {
-    animation-delay: 0.25s;
-    animation-duration: 1.32s; }
+    animation-delay: 0.73s;
+    animation-duration: 0.67s; }
   .ball-grid-beat > div:nth-child(5) {
-    animation-delay: 0.71s;
-    animation-duration: 1.05s; }
+    animation-delay: 0.35s;
+    animation-duration: 0.65s; }
   .ball-grid-beat > div:nth-child(6) {
-    animation-delay: 0.41s;
-    animation-duration: 1.31s; }
-  .ball-grid-beat > div:nth-child(7) {
-    animation-delay: 0.37s;
-    animation-duration: 1.07s; }
-  .ball-grid-beat > div:nth-child(8) {
-    animation-delay: -0.15s;
-    animation-duration: 0.9s; }
-  .ball-grid-beat > div:nth-child(9) {
-    animation-delay: 0.08s;
+    animation-delay: -0.11s;
     animation-duration: 0.95s; }
+  .ball-grid-beat > div:nth-child(7) {
+    animation-delay: 0.03s;
+    animation-duration: 0.64s; }
+  .ball-grid-beat > div:nth-child(8) {
+    animation-delay: 0.3s;
+    animation-duration: 0.66s; }
+  .ball-grid-beat > div:nth-child(9) {
+    animation-delay: 0.03s;
+    animation-duration: 1.14s; }
   .ball-grid-beat > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -783,34 +783,34 @@
 .ball-grid-pulse {
   width: 57px; }
   .ball-grid-pulse > div:nth-child(1) {
-    animation-delay: 0.15s;
-    animation-duration: 1.58s; }
+    animation-delay: -0.04s;
+    animation-duration: 1.09s; }
   .ball-grid-pulse > div:nth-child(2) {
-    animation-delay: 0.27s;
-    animation-duration: 0.91s; }
+    animation-delay: 0.77s;
+    animation-duration: 0.85s; }
   .ball-grid-pulse > div:nth-child(3) {
-    animation-delay: -0.12s;
-    animation-duration: 1.03s; }
+    animation-delay: -0.03s;
+    animation-duration: 1.17s; }
   .ball-grid-pulse > div:nth-child(4) {
-    animation-delay: 0.36s;
+    animation-delay: -0.18s;
     animation-duration: 0.91s; }
   .ball-grid-pulse > div:nth-child(5) {
-    animation-delay: 0.43s;
-    animation-duration: 1.26s; }
+    animation-delay: 0.38s;
+    animation-duration: 0.71s; }
   .ball-grid-pulse > div:nth-child(6) {
-    animation-delay: 0.76s;
-    animation-duration: 0.62s; }
+    animation-delay: 0.04s;
+    animation-duration: 0.95s; }
   .ball-grid-pulse > div:nth-child(7) {
-    animation-delay: 0.46s;
-    animation-duration: 0.84s; }
+    animation-delay: 0.25s;
+    animation-duration: 1.14s; }
   .ball-grid-pulse > div:nth-child(8) {
-    animation-delay: 0.56s;
-    animation-duration: 1.08s; }
+    animation-delay: 0s;
+    animation-duration: 1.6s; }
   .ball-grid-pulse > div:nth-child(9) {
-    animation-delay: 0.29s;
-    animation-duration: 0.72s; }
+    animation-delay: 0.34s;
+    animation-duration: 0.74s; }
   .ball-grid-pulse > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -839,35 +839,35 @@
     left: 0;
     animation: ball-spin-fade-loader 1s -0.96s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(2) {
-    top: 17.045455px;
-    left: 17.045455px;
+    top: 17.04545px;
+    left: 17.04545px;
     animation: ball-spin-fade-loader 1s -0.84s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(3) {
     top: 0;
     left: 25px;
     animation: ball-spin-fade-loader 1s -0.72s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(4) {
-    top: -17.045455px;
-    left: 17.045455px;
+    top: -17.04545px;
+    left: 17.04545px;
     animation: ball-spin-fade-loader 1s -0.6s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(5) {
     top: -25px;
     left: 0;
     animation: ball-spin-fade-loader 1s -0.48s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(6) {
-    top: -17.045455px;
-    left: -17.045455px;
+    top: -17.04545px;
+    left: -17.04545px;
     animation: ball-spin-fade-loader 1s -0.36s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(7) {
     top: 0;
     left: -25px;
     animation: ball-spin-fade-loader 1s -0.24s infinite linear; }
   .ball-spin-fade-loader > div:nth-child(8) {
-    top: 17.045455px;
-    left: -17.045455px;
+    top: 17.04545px;
+    left: -17.04545px;
     animation: ball-spin-fade-loader 1s -0.12s infinite linear; }
   .ball-spin-fade-loader > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -888,32 +888,32 @@
     left: 0;
     animation: ball-spin-loader 2s 0.9s infinite linear; }
   .ball-spin-loader > span:nth-child(2) {
-    top: 30.681818px;
-    left: 30.681818px;
+    top: 30.68182px;
+    left: 30.68182px;
     animation: ball-spin-loader 2s 1.8s infinite linear; }
   .ball-spin-loader > span:nth-child(3) {
     top: 0;
     left: 45px;
     animation: ball-spin-loader 2s 2.7s infinite linear; }
   .ball-spin-loader > span:nth-child(4) {
-    top: -30.681818px;
-    left: 30.681818px;
+    top: -30.68182px;
+    left: 30.68182px;
     animation: ball-spin-loader 2s 3.6s infinite linear; }
   .ball-spin-loader > span:nth-child(5) {
     top: -45px;
     left: 0;
     animation: ball-spin-loader 2s 4.5s infinite linear; }
   .ball-spin-loader > span:nth-child(6) {
-    top: -30.681818px;
-    left: -30.681818px;
+    top: -30.68182px;
+    left: -30.68182px;
     animation: ball-spin-loader 2s 5.4s infinite linear; }
   .ball-spin-loader > span:nth-child(7) {
     top: 0;
     left: -45px;
     animation: ball-spin-loader 2s 6.3s infinite linear; }
   .ball-spin-loader > span:nth-child(8) {
-    top: 30.681818px;
-    left: -30.681818px;
+    top: 30.68182px;
+    left: -30.68182px;
     animation: ball-spin-loader 2s 7.2s infinite linear; }
   .ball-spin-loader > div {
     animation-fill-mode: both;
@@ -943,7 +943,7 @@
   position: relative;
   transform: translate(-15px, -15px); }
   .ball-zig-zag > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -990,7 +990,7 @@
   position: relative;
   transform: translate(-15px, -15px); }
   .ball-zig-zag-deflect > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -1032,7 +1032,7 @@
   animation: line-scale 1s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08); }
 
 .line-scale > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 4px;
   height: 3.45rem;
   border-radius: 2px;
@@ -1049,23 +1049,23 @@
     transform: scale(1); } }
 
 .line-scale-party > div:nth-child(1) {
-  animation-delay: 0.8s;
-  animation-duration: 0.66s; }
+  animation-delay: 0.36s;
+  animation-duration: 1.11s; }
 
 .line-scale-party > div:nth-child(2) {
-  animation-delay: 0.04s;
-  animation-duration: 1.12s; }
+  animation-delay: 0.29s;
+  animation-duration: 1.24s; }
 
 .line-scale-party > div:nth-child(3) {
-  animation-delay: -0.19s;
-  animation-duration: 0.55s; }
+  animation-delay: 0.01s;
+  animation-duration: 0.71s; }
 
 .line-scale-party > div:nth-child(4) {
-  animation-delay: 0.43s;
-  animation-duration: 0.34s; }
+  animation-delay: 0.54s;
+  animation-duration: 0.97s; }
 
 .line-scale-party > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 4px;
   height: 3.45rem;
   border-radius: 2px;
@@ -1085,7 +1085,7 @@
     transform: scaley(1); } }
 
 .line-scale-pulse-out > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 4px;
   height: 3.45rem;
   border-radius: 2px;
@@ -1107,7 +1107,7 @@
     transform: scaley(1); } }
 
 .line-scale-pulse-out-rapid > div {
-  background-color: #6B6F82;
+  background-color: #6b6f82;
   width: 4px;
   height: 3.45rem;
   border-radius: 2px;
@@ -1136,8 +1136,8 @@
     left: 0;
     animation: line-spin-fade-loader 1.2s -0.84s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(2) {
-    top: 13.636364px;
-    left: 13.636364px;
+    top: 13.63636px;
+    left: 13.63636px;
     transform: rotate(-45deg);
     animation: line-spin-fade-loader 1.2s -0.72s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(3) {
@@ -1146,8 +1146,8 @@
     transform: rotate(90deg);
     animation: line-spin-fade-loader 1.2s -0.6s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(4) {
-    top: -13.636364px;
-    left: 13.636364px;
+    top: -13.63636px;
+    left: 13.63636px;
     transform: rotate(45deg);
     animation: line-spin-fade-loader 1.2s -0.48s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(5) {
@@ -1155,8 +1155,8 @@
     left: 0;
     animation: line-spin-fade-loader 1.2s -0.36s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(6) {
-    top: -13.636364px;
-    left: -13.636364px;
+    top: -13.63636px;
+    left: -13.63636px;
     transform: rotate(-45deg);
     animation: line-spin-fade-loader 1.2s -0.24s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(7) {
@@ -1165,12 +1165,12 @@
     transform: rotate(90deg);
     animation: line-spin-fade-loader 1.2s -0.12s infinite ease-in-out; }
   .line-spin-fade-loader > div:nth-child(8) {
-    top: 13.636364px;
-    left: -13.636364px;
+    top: 13.63636px;
+    left: -13.63636px;
     transform: rotate(45deg);
     animation: line-spin-fade-loader 1.2s 0s infinite ease-in-out; }
   .line-spin-fade-loader > div {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 4px;
     height: 3.45rem;
     border-radius: 2px;
@@ -1199,7 +1199,7 @@
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 20px solid #6B6F82;
+  border-bottom: 20px solid #6b6f82;
   animation: triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; }
 
 @keyframes square-spin {
@@ -1216,7 +1216,7 @@
   animation-fill-mode: both;
   width: 50px;
   height: 50px;
-  background: #6B6F82;
+  background: #6b6f82;
   animation: square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite; }
 
 @keyframes rotate_pacman_half_up {
@@ -1255,9 +1255,9 @@
     width: 0px;
     height: 0px;
     border-right: 25px solid transparent;
-    border-top: 25px solid #6B6F82;
-    border-left: 25px solid #6B6F82;
-    border-bottom: 25px solid #6B6F82;
+    border-top: 25px solid #6b6f82;
+    border-left: 25px solid #6b6f82;
+    border-bottom: 25px solid #6b6f82;
     border-radius: 25px;
     animation: rotate_pacman_half_up 0.5s 0s infinite;
     position: relative;
@@ -1266,9 +1266,9 @@
     width: 0px;
     height: 0px;
     border-right: 25px solid transparent;
-    border-top: 25px solid #6B6F82;
-    border-left: 25px solid #6B6F82;
-    border-bottom: 25px solid #6B6F82;
+    border-top: 25px solid #6b6f82;
+    border-left: 25px solid #6b6f82;
+    border-bottom: 25px solid #6b6f82;
     border-radius: 25px;
     animation: rotate_pacman_half_down 0.5s 0s infinite;
     margin-top: -50px;
@@ -1278,7 +1278,7 @@
   .pacman > div:nth-child(4),
   .pacman > div:nth-child(5),
   .pacman > div:nth-child(6) {
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     width: 15px;
     height: 15px;
     border-radius: 100%;
@@ -1310,7 +1310,7 @@
     position: absolute;
     top: -5px;
     left: -5px;
-    background-color: #6B6F82;
+    background-color: #6b6f82;
     animation: cube-transition 1.6s 0s infinite ease-in-out; }
     .cube-transition > div:last-child {
       animation-delay: -0.8s; }
@@ -1333,7 +1333,7 @@
     border-width: 0px;
     border-radius: 100%;
     animation: spin-rotate 0.6s 0s infinite linear;
-    background-image: linear-gradient(transparent 0%, transparent 70%, #6B6F82 30%, #6B6F82 100%);
+    background-image: linear-gradient(transparent 0%, transparent 70%, #6b6f82 30%, #6b6f82 100%);
     width: 100%;
     height: 100%; }
 

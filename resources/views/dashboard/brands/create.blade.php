@@ -52,15 +52,15 @@
                                             <div class="form-group">
                                                 <div class="text-center">
                                                     <img
-                                                        src="{{old('photo')}}"
-                                                        class="rounded-circle  height-150"
+                                                        src="{{old('photo')}}" id="output" width="200"
+                                                        class="height-150"
                                                         alt="{{__('admin/setting.brandpicture')}}">
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label>{{__('admin/setting.brandpicture')}}</label>
                                                 <label id="projectinput7" class="file center-block">
-                                                    <input type="file" id="file" name="photo">
+                                                    <input type="file" id="file" name="photo"  accept="image/*" name="image" onchange="loadFile(event)">
                                                     <span class="file-custom"></span>
                                                 </label>
                                                 @error('photo')
@@ -136,3 +136,9 @@
         </div>
     </div>
 @endsection
+<script>
+    var loadFile = function(event) {
+        var image = document.getElementById('output');
+        image.src = URL.createObjectURL(event.target.files[0]);
+    };
+</script>

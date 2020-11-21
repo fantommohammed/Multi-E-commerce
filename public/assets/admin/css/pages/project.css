@@ -32,3 +32,8 @@
         font-size: 1.2rem;
         top: 10px;
         position: relative; }
+
+@media screen and (max-width: 1024px) and (min-width: 992px) {
+  #project-bugs-list_wrapper #project-bugs-list_length .select2-container--classic,
+  #project-bugs-list_wrapper #project-bugs-list_length .select2-container--default {
+    width: 55% !important; } }

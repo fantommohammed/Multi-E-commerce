@@ -7,3 +7,6 @@
 
 .bootstrap-duallistbox-container .clear1 {
   font-size: 11px !important; }
+
+select[multiple='multiple'] {
+  overflow: auto; }

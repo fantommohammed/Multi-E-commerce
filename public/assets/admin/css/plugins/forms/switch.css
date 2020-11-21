@@ -19,21 +19,21 @@ input[type="radio"].switch {
   height: 16px;
   width: 16px; }
 
-.switch ~ .btn-group a.btn {
+.switch ~ .btn-group .btn {
   -moz-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.5); }
-  .switch ~ .btn-group a.btn.active {
+  .switch ~ .btn-group .btn.active {
     -moz-box-shadow: inset 0px 1px 5px -1px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: inset 0px 1px 5px -1px rgba(0, 0, 0, 0.5);
     box-shadow: inset 0px 1px 5px -1px rgba(0, 0, 0, 0.5);
-    color: #FFFFFF; }
-    .switch ~ .btn-group a.btn.active:not(.dropdown-toggle) {
+    color: #fff; }
+    .switch ~ .btn-group .btn.active:not(.dropdown-toggle) {
       border-bottom-right-radius: 0.25rem;
       border-top-right-radius: 0.25rem;
       border-top-left-radius: 0.25rem;
       border-bottom-left-radius: 0.25rem; }
-  .switch ~ .btn-group a.btn:hover {
+  .switch ~ .btn-group .btn:hover {
     z-index: 1; }
 
 .switch ~ .btn-group:focus {
@@ -57,3 +57,6 @@ input[type="radio"].switch {
 .bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-off .bootstrap-switch-handle-off,
 .bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-off .bootstrap-switch-handle-on {
   padding: 5px 10px; }
+
+.checkbox-input-group .input-group .input-group-prepend .custom-control-label {
+  top: 0; }

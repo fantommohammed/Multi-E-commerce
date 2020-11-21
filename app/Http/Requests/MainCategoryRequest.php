@@ -30,6 +30,7 @@ class MainCategoryRequest extends FormRequest
     {
         return [
             'name' => 'required',
+            'type' => 'required|in:array[Category::mainCategory,Category::subCategory]',
             'slug' => 'required|unique:categories,slug,'.$this -> id,
         ];
     }

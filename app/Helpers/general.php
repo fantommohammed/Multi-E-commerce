@@ -6,6 +6,10 @@ function getFolder()
 {
     return app()->getLocale()==='ar' ? 'css-rtl' : 'css';
 }
+function getDirection()
+{
+    return app()->getLocale()==='ar' ? '-rtl' : '';
+}
 
 function uploadImage($folder,$image)
 {

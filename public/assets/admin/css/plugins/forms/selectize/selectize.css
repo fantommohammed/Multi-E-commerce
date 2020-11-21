@@ -178,12 +178,12 @@
 .selectize-control.multi .selectize-input.has-items {
   padding-left: 8px !important; }
   .selectize-control.multi .selectize-input.has-items.disabled [data-value] {
-    color: #FFFFFF; }
+    color: #fff; }
 
 .selectize-control.multi .selectize-input [data-value] {
   background-image: none !important;
   padding: 3px 6px;
-  background-color: #1E9FF2 !important;
+  background-color: #1e9ff2 !important;
   border-color: #0c84d1 !important;
   margin-right: 7px;
   font-size: 1rem;

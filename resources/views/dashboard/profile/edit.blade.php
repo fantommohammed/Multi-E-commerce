@@ -79,8 +79,7 @@
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="password">
-                                                            <span toggle="#password-field"
-                                                            class="bx bx-show bx-md edit-pwd"></span>
+                                                            <span class="show-pwd bx bx-show bx-md " toggle="#password-field"></span>
                                                             @error("password")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror

@@ -42,7 +42,7 @@ $(document).ready(function() {
     {
 
     }
-    $(".edit-pwd").click(function() {
+    $(".show-pwd").click(function() {
 
         $(this).toggleClass("bx-show bx-hide");
         const input = $($(this).attr("toggle"));

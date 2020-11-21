@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
+use App\Http\Enumerations\CategoryType;
 use App\Http\Requests\MainCategoryRequest;
 use App\Models\Category;
 use DB;
@@ -13,7 +14,7 @@ class MainCategoriesController extends Controller
 {
     public function index()
     {
-        $categories = Category::parent()->orderBy('id','DESC')->paginate(PAGINATION_COUNT);
+        $categories = Category::with('_parent')->orderBy('id','DESC')->paginate(PAGINATION_COUNT);
         return view ('dashboard.categories.index',compact('categories'));
     }
 
@@ -76,14 +77,13 @@ class MainCategoriesController extends Controller
 
     public function create()
     {
-        return view('dashboard.categories.create');
+        $categories = Category::select('id','parent_id')->get();
+        return view('dashboard.categories.create',compact('categories'));
     }
 
-    public function store(MainCategoriesController $request)
+    public function store(MainCategoryRequest $request)
     {
-        try
-        {
-            DB::beginTransaction();
+
             //validation
 
             //store
@@ -92,6 +92,14 @@ class MainCategoriesController extends Controller
             else
                 $request->request->add(['is_active'=>1]);
 
+            //if user choose main category then we must remove parent_id from the request
+
+            if($request->type ==CategoryType::mainCategory)//main category
+            {
+                $request->request->add(['parent_id'=>null]);
+            }
+
+            //if user choose child category we must add parent_id
 
             $category =Category::create($request->except('_token'));
 
@@ -102,12 +110,6 @@ class MainCategoriesController extends Controller
             DB::commit();
 
             return redirect()->route('admin.maincategories')->with(['success'=>'تم الاضافة بنجاح']);
-        }catch(\Exception $ex)
-        {
-            DB::rollback();
-            return redirect()->route('admin.maincategories')->with(['error'=>'حدث خطاء ما برجاء المحاولة لاحقا']);
 
-        }
     }
-
 }
