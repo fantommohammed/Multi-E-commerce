@@ -3,9 +3,8 @@
     Description: Selectize js for select field
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
-    Author: GeeksLabs
-    Author URL: http://www.themeforest.net/user/geekslabs
+    Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
 (function(window, document, $) {
 	'use strict';
@@ -40,7 +39,7 @@
 	});
 
 	// Email Address for contact Starts
-	var REGEX_EMAIL = '([a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*@' + 
+	var REGEX_EMAIL = '([a-z0-9!#$%&\'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&\'*+/=?^_`{|}~-]+)*@' +
 		'(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)';
 
 	var formatName = function(item) {

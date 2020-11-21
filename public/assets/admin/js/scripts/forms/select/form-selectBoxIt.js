@@ -3,9 +3,8 @@
     Description: Select Box It select field js
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
-    Author: GeeksLabs
-    Author URL: http://www.themeforest.net/user/geekslabs
+    Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
 (function(window, document, $) {
 	'use strict';
@@ -87,9 +86,6 @@
 			$(this).data("selectBox-selectBoxIt").dropdown.find('.selectboxit-arrow-container i').addClass('selectboxit-arrow icon-hand-o-down');
 		}
 	});
-
-	// Popover Tooltip
-	$("[data-toggle='popover']").popover({ trigger: "hover", container: "body" });
 
 
 	// Add options dynamically

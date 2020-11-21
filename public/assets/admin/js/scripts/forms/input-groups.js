@@ -3,7 +3,6 @@
 	Description: Input Groups js
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-	Version: 1.0
 	Author: PIXINVENT
 	Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
@@ -23,8 +22,6 @@
 	//vertical TouchSpin
 	$(".touchspin-vertical").TouchSpin({
 		verticalbuttons: true,
-		verticalupclass: 'la la-angle-up',
-		verticaldownclass: 'la la-angle-down',
 		buttondown_class: "btn btn-primary",
 		buttonup_class: "btn btn-primary",
 	});

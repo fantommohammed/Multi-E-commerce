@@ -3,11 +3,10 @@
 	Description: An inputmask helps the user with the input by ensuring a predefined format.
 	----------------------------------------------------------------------------------------
 	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-	Version: 1.0
 	Author: Pixinvent
 	Author URL: hhttp://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
-(function(window, document, $) {
+(function (window, document, $) {
 	'use strict';
 
 
@@ -42,7 +41,10 @@
 	$('.percentage-inputmask').inputmask("99%");
 
 	// Decimal
-	$('.decimal-inputmask').inputmask({ "alias": "decimal" , "radixPoint": "." });
+	$('.decimal-inputmask').inputmask({
+		"alias": "decimal",
+		"radixPoint": "."
+	});
 
 	// Email mask
 	$('.email-inputmask').inputmask({
@@ -65,15 +67,29 @@
 	$('.optional-inputmask').inputmask("(99) 9999[9]-9999");
 
 	// JIT Masking
-	$('.jit-inputmask').inputmask("mm-dd-yyyy",{ jitMasking: true });
+	$('.jit-inputmask').inputmask("mm-dd-yyyy", {
+		jitMasking: true
+	});
 
 	// Oncomplete
-	$('.oncomplete-inputmask').inputmask("d/m/y",{ "oncomplete": function(){ alert('inputmask complete'); } });
+	$('.oncomplete-inputmask').inputmask("d/m/y", {
+		"oncomplete": function () {
+			alert('inputmask complete');
+		}
+	});
 
 	// Onincomplete
-	$('.onincomplete-inputmask').inputmask("d/m/y",{ "onincomplete": function(){ alert('inputmask incomplete'); } });
+	$('.onincomplete-inputmask').inputmask("d/m/y", {
+		"onincomplete": function () {
+			alert('inputmask incomplete');
+		}
+	});
 
 	// Oncleared
-	$('.oncleared-inputmask').inputmask("d/m/y",{ "oncleared": function(){ alert('inputmask cleared'); } });
+	$('.oncleared-inputmask').inputmask("d/m/y", {
+		"oncleared": function () {
+			alert('inputmask cleared');
+		}
+	});
 
 })(window, document, jQuery);

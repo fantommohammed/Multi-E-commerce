@@ -1,11 +1,10 @@
 /*=========================================================================================
-    File Name: editor-tinymce.js
-    Description: HTML editor TinyMCE
-    ----------------------------------------------------------------------------------------
-    Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
-    Author: PIXINVENT
-    Author URL: http://www.themeforest.net/user/pixinvent
+	File Name: editor-quill.js
+	Description: Quill is a modern rich text editor built for compatibility and extensibility.
+	----------------------------------------------------------------------------------------
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Author: Pixinvent
+	Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
 (function(window, document, $) {
 	'use strict';
@@ -14,7 +13,7 @@
 	tinymce.init({
 		selector: '.tinymce',
 		height: 350,
-		theme: 'modern',
+		theme: 'silver',
 		plugins: [
 			'advlist autolink lists link image charmap print preview hr anchor pagebreak',
 			'searchreplace wordcount visualblocks visualchars code fullscreen',
@@ -118,24 +117,47 @@
 		selector: '.tinymce-toolbar',
 		height: 350,
 		toolbar: 'mybutton',
-		menubar: false,
+		// menubar: false,
 		setup: function (editor) {
-			editor.addButton('mybutton', {
-				type: 'listbox',
-				text: 'My listbox',
-				icon: false,
-				onselect: function (e) {
-					editor.insertContent(this.value());
-				},
-				values: [
-					{ text: 'Menu item 1', value: '&nbsp;<strong>Some bold text!</strong>' },
-					{ text: 'Menu item 2', value: '&nbsp;<em>Some italic text!</em>' },
-					{ text: 'Menu item 3', value: '&nbsp;Some plain text ...' }
-				],
-				onPostRender: function () {
-					// Select the second item by default
-					this.value('&nbsp;<em>Some italic text!</em>');
-				}
+			editor.ui.registry.addMenuButton('mybutton', {
+				text: 'My button',
+				fetch: function (callback) {
+					var items = [
+					  {
+						type: 'menuitem',
+						text: 'Menu item 1',
+						onAction: function () {
+						  editor.insertContent('&nbsp;<em>You clicked menu item 1!</em>');
+						}
+					  },
+					  {
+						type: 'nestedmenuitem',
+						text: 'Menu item 2',
+						icon: 'user',
+						getSubmenuItems: function () {
+						  return [
+							{
+							  type: 'menuitem',
+							  text: 'Sub menu item 1',
+							  icon: 'unlock',
+							  onAction: function () {
+								editor.insertContent('&nbsp;<em>You clicked Sub menu item 1!</em>');
+							  }
+							},
+							{
+							  type: 'menuitem',
+							  text: 'Sub menu item 2',
+							  icon: 'lock',
+							  onAction: function () {
+								editor.insertContent('&nbsp;<em>You clicked Sub menu item 2!</em>');
+							  }
+							}
+						  ];
+						}
+					  }
+					];
+					callback(items);
+				  }
 			});
 		},
 		content_css: [

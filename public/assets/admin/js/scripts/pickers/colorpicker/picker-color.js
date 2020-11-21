@@ -3,9 +3,8 @@
     Description: Bootstrap Color Picker , minicolors , spectrum js
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
-    Author: GeeksLabs
-    Author URL: http://www.themeforest.net/user/geekslabs
+    Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
 
 (function(window, document, $) {

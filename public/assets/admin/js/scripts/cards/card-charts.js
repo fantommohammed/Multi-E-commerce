@@ -3,21 +3,20 @@
     Description: intialize advance cards
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
     Author: Pixinvent
     Author URL: hhttp://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
-(function(window, document, $) {
+(function (window, document, $) {
     'use strict';
 
     /****************************************************
-    *               Employee Satisfaction               *
-    ****************************************************/
+     *               Employee Satisfaction               *
+     ****************************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx1 = document.getElementById("emp-satisfaction").getContext("2d");
 
     // Create Linear Gradient
-    var white_gradient = ctx1.createLinearGradient(0, 0, 0,400);
+    var white_gradient = ctx1.createLinearGradient(0, 0, 0, 400);
     white_gradient.addColorStop(0, 'rgba(255,255,255,0.5)');
     white_gradient.addColorStop(1, 'rgba(255,255,255,0)');
 
@@ -25,8 +24,8 @@
     var empSatOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        datasetStrokeWidth : 3,
-        pointDotStrokeWidth : 4,
+        datasetStrokeWidth: 3,
+        pointDotStrokeWidth: 4,
         tooltipFillColor: "rgba(0,0,0,0.8)",
         legend: {
             display: false,
@@ -64,8 +63,8 @@
             backgroundColor: white_gradient,
             borderColor: "rgba(255,255,255,1)",
             borderWidth: 2,
-            strokeColor : "#ff6c23",
-            pointColor : "#fff",
+            strokeColor: "#ff6c23",
+            pointColor: "#fff",
             pointBorderColor: "rgba(255,255,255,1)",
             pointBackgroundColor: "#1E9FF2",
             pointBorderWidth: 2,
@@ -78,10 +77,10 @@
         type: 'line',
 
         // Chart Options
-        options : empSatOptions,
+        options: empSatOptions,
 
         // Chart Data
-        data : empSatData
+        data: empSatData
     };
 
     // Create the chart
@@ -90,8 +89,8 @@
 
 
     /***********************************************************
-    *               New User - Page Visist Stats               *
-    ***********************************************************/
+     *               New User - Page Visist Stats               *
+     ***********************************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx2 = document.getElementById("line-stacked-area").getContext("2d");
 
@@ -99,7 +98,7 @@
     var userPageVisitOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        pointDotStrokeWidth : 4,
+        pointDotStrokeWidth: 4,
         legend: {
             display: false,
             labels: {
@@ -118,7 +117,7 @@
                     color: "rgba(255,255,255, 0.3)",
                     drawTicks: true,
                     drawBorder: false,
-                    zeroLineColor:'#FFF'
+                    zeroLineColor: '#FFF'
                 },
                 ticks: {
                     display: true,
@@ -146,7 +145,7 @@
 
     // Chart Data
     var userPageVisitData = {
-        labels: ["2010", "2011", "2012", "2013", "2014", "2015", "2016","2017"],
+        labels: ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017"],
         datasets: [{
             label: "iOS",
             data: [0, 5, 22, 14, 28, 12, 24, 0],
@@ -157,7 +156,7 @@
             pointRadius: 2,
             pointBorderWidth: 2,
             pointHoverBorderWidth: 2,
-        },{
+        }, {
             label: "Windows",
             data: [0, 8, 30, 15, 12, 21, 14, 0],
             backgroundColor: "rgba(255,168,125,0.9)",
@@ -184,10 +183,10 @@
         type: 'line',
 
         // Chart Options
-        options : userPageVisitOptions,
+        options: userPageVisitOptions,
 
         // Chart Data
-        data : userPageVisitData
+        data: userPageVisitData
     };
 
     // Create the chart
@@ -195,8 +194,8 @@
 
 
     /*********************************************
-    *               Total Earnings               *
-    **********************************************/
+     *               Total Earnings               *
+     **********************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx3 = document.getElementById("earning-chart").getContext("2d");
 
@@ -204,8 +203,8 @@
     var earningOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        datasetStrokeWidth : 3,
-        pointDotStrokeWidth : 4,
+        datasetStrokeWidth: 3,
+        pointDotStrokeWidth: 4,
         tooltipFillColor: "rgba(0,0,0,0.8)",
         legend: {
             display: false,
@@ -244,9 +243,9 @@
             backgroundColor: 'rgba(255,117,136,0.1)',
             borderColor: "transparent",
             borderWidth: 0,
-            strokeColor : "#ff6c23",
+            strokeColor: "#ff6c23",
             capBezierPoints: true,
-            pointColor : "#fff",
+            pointColor: "#fff",
             pointBorderColor: "rgba(255,117,136,1)",
             pointBackgroundColor: "#FFF",
             pointBorderWidth: 2,
@@ -258,10 +257,10 @@
         type: 'line',
 
         // Chart Options
-        options : earningOptions,
+        options: earningOptions,
 
         // Chart Data
-        data : earningData
+        data: earningData
     };
 
     // Create the chart
@@ -269,8 +268,8 @@
 
 
     /*************************************************
-    *               Posts Visits Ratio               *
-    *************************************************/
+     *               Posts Visits Ratio               *
+     *************************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx4 = $("#posts-visits");
 
@@ -347,9 +346,9 @@
         type: 'line',
 
         // Chart Options
-        options : PostsVisitsOptions,
+        options: PostsVisitsOptions,
 
-        data : postsVisitsData
+        data: postsVisitsData
     };
 
     // Create the chart
@@ -357,14 +356,14 @@
 
 
     /*******************************************
-    *               Global Sales               *
-    *******************************************/
+     *               Global Sales               *
+     *******************************************/
 
     //Get the context of the Chart canvas element we want to select
     var ctx5 = document.getElementById("global-sales").getContext("2d");
 
     // Create Linear Gradient
-    var white_gradient2 = ctx1.createLinearGradient(0, 0, 0,400);
+    var white_gradient2 = ctx1.createLinearGradient(0, 0, 0, 400);
     white_gradient2.addColorStop(0, 'rgba(248, 238, 44, 1)');
     white_gradient2.addColorStop(0.6, 'rgba(255, 162, 0, 1)');
     white_gradient2.addColorStop(1, 'rgba(243, 97, 0, 1)');
@@ -373,7 +372,7 @@
     var gloablSalesOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        responsiveAnimationDuration:500,
+        responsiveAnimationDuration: 500,
         legend: {
             display: false,
             position: 'top',
@@ -398,7 +397,7 @@
                     fontSize: 14,
                     fontColor: '#FFF'
                 }
-            },{
+            }, {
                 display: true,
                 type: 'category',
                 id: "fmv",
@@ -445,7 +444,7 @@
             // backgroundColor: "rgba(255,255,255,.6)",
             hoverBackgroundColor: white_gradient2,
             // borderColor: "rgba(102,144,100,.6)"
-        },{
+        }, {
             type: 'bar',
             xAxisID: 'barline',
             label: "My Second dataset",
@@ -460,9 +459,9 @@
         type: 'bar',
 
         // Chart Options
-        options : gloablSalesOptions,
+        options: gloablSalesOptions,
 
-        data : globalSalesData
+        data: globalSalesData
     };
 
     // Create the chart
@@ -470,8 +469,8 @@
 
 
     /****************************************************
-    *               Yearly Revenue Comparision          *
-    ****************************************************/
+     *               Yearly Revenue Comparision          *
+     ****************************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx6 = $("#revenue-comparision");
 
@@ -479,16 +478,16 @@
     var revenueComparisionOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        responsiveAnimationDuration:500,
+        responsiveAnimationDuration: 500,
         hoverMode: 'label',
         stacked: false,
         legend: {
             display: false,
             position: 'top',
         },
-        title:{
-            display:false,
-            text:"Chart.js Bar Chart - Multi Axis"
+        title: {
+            display: false,
+            text: "Chart.js Bar Chart - Multi Axis"
         },
         scales: {
             xAxes: [{
@@ -500,7 +499,7 @@
                     color: 'rgba(255, 255, 255, 0.3)',
                     zeroLineColor: '#FFF'
                 },
-                ticks:{
+                ticks: {
                     fontColor: '#FFF',
                 }
             }, {
@@ -513,17 +512,17 @@
                     drawOnChartArea: false,
                     zeroLineColor: '#FFF'
                 },
-                ticks:{
+                ticks: {
                     fontColor: '#FFF',
                 }
             }],
-            yAxes:[{
+            yAxes: [{
                 display: true,
                 gridLines: {
                     color: 'rgba(255, 255, 255, 0.3)',
                     drawTicks: false,
                 },
-                ticks:{
+                ticks: {
                     fontColor: '#FFF',
                 }
             }]
@@ -552,9 +551,9 @@
         type: 'horizontalBar',
 
         // Chart Options
-        options : revenueComparisionOptions,
+        options: revenueComparisionOptions,
 
-        data : revenueComparisionData
+        data: revenueComparisionData
     };
 
     // Create the chart
@@ -563,11 +562,32 @@
 
 
     /************************************************
-    *               Sales Growth Rate               *
-    ************************************************/
+     *               Sales Growth Rate               *
+     ************************************************/
     Morris.Area({
         element: 'sales-growth-chart',
-        data: [{y: '2010', a: 28, }, {y: '2011', a: 40 }, {y: '2012', a: 36 }, {y: '2013', a: 48 }, {y: '2014', a: 32 }, {y: '2015', a: 42 }, {y: '2016', a: 30 }],
+        data: [{
+            y: '2010',
+            a: 28,
+        }, {
+            y: '2011',
+            a: 40
+        }, {
+            y: '2012',
+            a: 36
+        }, {
+            y: '2013',
+            a: 48
+        }, {
+            y: '2014',
+            a: 32
+        }, {
+            y: '2015',
+            a: 42
+        }, {
+            y: '2016',
+            a: 30
+        }],
         xkey: 'y',
         ykeys: ['a'],
         labels: ['Sales'],
@@ -588,11 +608,29 @@
 
 
     /*******************************************
-    *               Mobile Sales               *
-    ********************************************/
+     *               Mobile Sales               *
+     ********************************************/
     Morris.Bar({
         element: 'mobile-sales',
-        data: [{device: 'iPhone 7', sales: 1835 }, {device: 'Note 7', sales: 2356 }, {device: 'Mi5', sales: 1459 }, {device: 'Moto Z', sales: 1289 }, {device: 'Lenovo X3', sales: 1647 }, {device: 'OnePlus 3', sales: 2156 }],
+        data: [{
+            device: 'iPhone 7',
+            sales: 1835
+        }, {
+            device: 'Note 7',
+            sales: 2356
+        }, {
+            device: 'Mi5',
+            sales: 1459
+        }, {
+            device: 'Moto Z',
+            sales: 1289
+        }, {
+            device: 'Lenovo X3',
+            sales: 1647
+        }, {
+            device: 'OnePlus 3',
+            sales: 2156
+        }],
         xkey: 'device',
         ykeys: ['sales'],
         labels: ['Sales'],
@@ -611,11 +649,47 @@
 
 
     /********************************************
-    *               Monthly Sales               *
-    ********************************************/
+     *               Monthly Sales               *
+     ********************************************/
     Morris.Bar({
         element: 'monthly-sales',
-        data: [{month: 'Jan', sales: 1835 }, {month: 'Feb', sales: 2356 }, {month: 'Mar', sales: 1459 }, {month: 'Apr', sales: 1289 }, {month: 'May', sales: 1647 }, {month: 'Jun', sales: 2156 }, {month: 'Jul', sales: 1835 }, {month: 'Aug', sales: 2356 }, {month: 'Sep', sales: 1459 }, {month: 'Oct', sales: 1289 }, {month: 'Nov', sales: 1647 }, {month: 'Dec', sales: 2156 }],
+        data: [{
+            month: 'Jan',
+            sales: 1835
+        }, {
+            month: 'Feb',
+            sales: 2356
+        }, {
+            month: 'Mar',
+            sales: 1459
+        }, {
+            month: 'Apr',
+            sales: 1289
+        }, {
+            month: 'May',
+            sales: 1647
+        }, {
+            month: 'Jun',
+            sales: 2156
+        }, {
+            month: 'Jul',
+            sales: 1835
+        }, {
+            month: 'Aug',
+            sales: 2356
+        }, {
+            month: 'Sep',
+            sales: 1459
+        }, {
+            month: 'Oct',
+            sales: 1289
+        }, {
+            month: 'Nov',
+            sales: 1647
+        }, {
+            month: 'Dec',
+            sales: 2156
+        }],
         xkey: 'month',
         ykeys: ['sales'],
         labels: ['Sales'],
@@ -633,8 +707,8 @@
 
 
     /*****************************************************
-    *               Advertisement Expenses               *
-    *****************************************************/
+     *               Advertisement Expenses               *
+     *****************************************************/
     //Get the context of the Chart canvas element we want to select
     var ctx7 = $("#advertisement-expense");
 
@@ -642,7 +716,7 @@
     var chartOptions = {
         responsive: true,
         maintainAspectRatio: false,
-        responsiveAnimationDuration:500,
+        responsiveAnimationDuration: 500,
         legend: {
             display: false,
             position: 'bottom',
@@ -693,7 +767,7 @@
             pointBackgroundColor: "rgba(255,168,125,1)",
             hoverPointBackgroundColor: "#fff",
             pointHighlightStroke: "rgba(255,168,125,1)",
-        },]
+        }, ]
     };
 
     var config = {
@@ -710,23 +784,52 @@
 
 
     /*************************************************
-    *               Cost Revenue Stats               *
-    *************************************************/
+     *               Cost Revenue Stats               *
+     *************************************************/
     new Chartist.Line('#cost-revenue', {
         labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         series: [
-            [
-                {meta:'Revenue', value: 5},
-                {meta:'Revenue', value: 3},
-                {meta:'Revenue', value: 6},
-                {meta:'Revenue', value: 3},
-                {meta:'Revenue', value: 8},
-                {meta:'Revenue', value: 5},
-                {meta:'Revenue', value: 8},
-                {meta:'Revenue', value: 12},
-                {meta:'Revenue', value: 7},
-                {meta:'Revenue', value: 14},
-             
+            [{
+                    meta: 'Revenue',
+                    value: 5
+                },
+                {
+                    meta: 'Revenue',
+                    value: 3
+                },
+                {
+                    meta: 'Revenue',
+                    value: 6
+                },
+                {
+                    meta: 'Revenue',
+                    value: 3
+                },
+                {
+                    meta: 'Revenue',
+                    value: 8
+                },
+                {
+                    meta: 'Revenue',
+                    value: 5
+                },
+                {
+                    meta: 'Revenue',
+                    value: 8
+                },
+                {
+                    meta: 'Revenue',
+                    value: 12
+                },
+                {
+                    meta: 'Revenue',
+                    value: 7
+                },
+                {
+                    meta: 'Revenue',
+                    value: 14
+                },
+
             ]
         ]
     }, {
@@ -750,7 +853,7 @@
         plugins: [
             Chartist.plugins.tooltip()
         ]
-    }).on('draw', function(data) {
+    }).on('draw', function (data) {
         if (data.type === 'area') {
             data.element.attr({
                 'style': 'fill: #28D094; fill-opacity: 0.2'
@@ -763,9 +866,11 @@
         }
         if (data.type === 'point') {
             var circle = new Chartist.Svg('circle', {
-              cx: [data.x], cy:[data.y], r:[7],
+                cx: [data.x],
+                cy: [data.y],
+                r: [7],
             }, 'ct-area-circle');
-             data.element.replace(circle);
+            data.element.replace(circle);
         }
     });
 
