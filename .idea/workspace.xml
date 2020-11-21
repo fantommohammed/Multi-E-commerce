@@ -20,241 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d7c1881-64a4-4e0f-a7b5-c7a6297544f0" name="Default Changelist" comment="change to new admin thems">
-      <change afterPath="$PROJECT_DIR$/app/Http/Enumerations/CategoryType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/style-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/scss/style-rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/assets/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/material-palette-gradient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/material-palette-gradient.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/material-palette-variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/material-palette-variables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-horizontal-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-horizontal-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-compact-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-compact-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-content-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-content-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-menu-modern.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-menu-modern.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-overlay-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/material-vertical-overlay-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material-colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material-colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material-extended.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material-extended.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/material.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-statics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-statics.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-statistics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-statistics.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/crypto-trading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/crypto-trading.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-bank.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-bank.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-support.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-support.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-travel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ecommerce-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ecommerce-cart.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ecommerce-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ecommerce-shop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ex-component-tour.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/ex-component-tour.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-add-patient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-add-patient.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-doctor-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-doctor-profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-patient-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital-patient-profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/hospital.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/news-feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/news-feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/page-users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/page-users.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/single-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/single-page.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/support-ticket-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/support-ticket-detail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/support-tickets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/support-tickets.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/travel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/user-feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/user-feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/context-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/context-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-knob.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-knob.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-tree-views.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/ex-component-tree-views.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.autoheight.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.columns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.columns.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.counters.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.counters.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dividers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dividers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dragopen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dragopen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.dropdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.iconpanels.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.iconpanels.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.navbars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.navbars.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.offcanvas.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.screenreader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.screenreader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.searchfield.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.searchfield.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.sectionindexer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.sectionindexer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.setselected.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.setselected.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.toggles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.toggles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/effects/jquery.mmenu.effects.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/effects/jquery.mmenu.effects.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/fullscreen/jquery.mmenu.fullscreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/iconbar/jquery.mmenu.iconbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/iconbar/jquery.mmenu.iconbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/multiline/jquery.mmenu.multiline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pagedim/jquery.mmenu.pagedim.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pagedim/jquery.mmenu.pagedim.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pageshadow/jquery.mmenu.pageshadow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/popup/jquery.mmenu.popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/popup/jquery.mmenu.popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/themes/jquery.mmenu.themes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/themes/jquery.mmenu.themes.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/tileview/jquery.mmenu.tileview.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/widescreen/jquery.mmenu.widescreen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/jquery.mmenu.oncanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/jquery.mmenu.oncanvas.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/material-palette-gradient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/material-palette-gradient.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/material-palette-variables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/material-palette-variables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-horizontal-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-horizontal-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-compact-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-compact-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-content-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-content-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-menu-modern.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-menu-modern.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-overlay-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/material-vertical-overlay-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material-colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material-colors.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material-extended.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material-extended.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/material.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-statics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-statics.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-statistics.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-statistics.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/crypto-trading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/crypto-trading.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-bank.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-bank.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-support.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-support.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-travel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ecommerce-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ecommerce-cart.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ecommerce-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ecommerce-shop.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ex-component-tour.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/ex-component-tour.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-add-patient.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-add-patient.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-doctor-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-doctor-profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-patient-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital-patient-profile.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/hospital.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/news-feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/news-feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/page-users.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/page-users.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/single-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/single-page.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/support-ticket-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/support-ticket-detail.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/support-tickets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/support-tickets.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/travel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/user-feed.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/user-feed.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/context-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/context-menu.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-knob.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-knob.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-swiper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-swiper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-tree-views.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/ex-component-tree-views.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.columns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.columns.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.counters.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.counters.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dividers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dividers.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dragopen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dragopen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dropdown.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.dropdown.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.iconpanels.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.iconpanels.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.navbars.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.navbars.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.offcanvas.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.offcanvas.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.screenreader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.screenreader.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.searchfield.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.searchfield.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.sectionindexer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.sectionindexer.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.setselected.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.setselected.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.toggles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.toggles.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/effects/jquery.mmenu.effects.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/fullscreen/jquery.mmenu.fullscreen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/iconbar/jquery.mmenu.iconbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pagedim/jquery.mmenu.pagedim.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pageshadow/jquery.mmenu.pageshadow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/popup/jquery.mmenu.popup.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/themes/jquery.mmenu.themes.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/widescreen/jquery.mmenu.widescreen.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/jquery.mmenu.oncanvas.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/leaflet/us-states.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/locales/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/locales/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/locales/fr.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/locales/pt.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/data/template-list.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/flag-icon-css/flags/1x1/es-ca.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/flag-icon-css/flags/1x1/gb-nir.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/flag-icon-css/flags/1x1/un.svg" afterDir="false" />
@@ -740,31 +505,6 @@
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/mobiriseicons/30px/svg/mbri-zoom-out.svg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/mobiriseicons/readme.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/fonts/summernote.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/dark-menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/laptop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/left-menu-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/todo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/banner/parallax-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/doc-images/modern-build-process.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery/dark-menu.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery/left-menu-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery/party-flyer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/gallery/timeline.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/card-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/card-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/google.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/mail-chimp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/psd.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/sketch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/icons/twitter-avatar1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/customIcons/map-marker-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/customIcons/map-marker-pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/images/layers-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/images/layers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/images/marker-icon-2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/images/marker-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/map/leaflet/images/marker-shadow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/top.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.af.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.am.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.ar.min.js" afterDir="false" />
@@ -984,8 +724,6 @@
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/scripts/pages/support-customers.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/scripts/tables/material-datatable.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/js/scripts/tables/material-datatable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/media/water-lily.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/admin/media/water-lily.ogg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/css/calendars/daygrid.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/css/calendars/timegrid.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/css/charts/images/layers-2x.png" afterDir="false" />
@@ -1475,354 +1213,7 @@
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/material-vendors.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/pickers/daterange/moment.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/ui/plyr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-markdown.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-microsoft-teams.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-ok-ru.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-python.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-spring-boot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-tux.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/logos/bxl-zoom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-bookmark-alt-minus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-bookmark-alt-plus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-bookmark-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-bookmark-heart.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-category-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-category.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-face-mask.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-movie-play.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-tag-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-tv.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-user-account.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-virus-block.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-virus.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/brands/VRnZ3H9ooE1vNbRlWYXdMyfCnp5g31dzY8zPu2k4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/brands/isqJNJqNW4BO9P1VX2oTDeiLwhq20GecDkMyXfMf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Multi-E-commerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Multi-E-commerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Helpers/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/general.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/MainCategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/MainCategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Requests/MainCategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/MainCategoryRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/colors.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/components.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/components.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-callout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-callout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-callout.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-callout.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-climacon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-climacon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-climacon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-climacon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-gradient.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-gradient.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-gradient.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-gradient.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-loader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-loader.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-noui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-noui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-noui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-noui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-switch.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-tooltip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-tooltip.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/colors/palette-tooltip.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/horizontal-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/horizontal-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/horizontal-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/horizontal-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-compact-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-compact-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-compact-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-compact-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-content-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-content-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-content-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-content-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu-modern.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu-modern.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu-modern.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu-modern.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/core/menu/menu-types/vertical-overlay-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/custom-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/custom-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/custom-rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/custom-rtl.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/card-charts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/chat-application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/chat-application.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/coming-soon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/coming-soon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/coming-soon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/coming-soon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-ecommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/dashboard-ecommerce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/email-application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/email-application.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/error.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/error.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/gallery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/gallery.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/gallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/gallery.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/invoice.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/invoice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/invoice.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/invoice.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/login-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/login-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/login-register.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/login-register.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/project.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/project.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/search.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/search.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/timeline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/timeline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/timeline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/under-maintenance.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/under-maintenance.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/under-maintenance.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/under-maintenance.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/users.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/users.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/pages/users.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/clndr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/clndr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/clndr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/clndr.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/calendars/fullcalendar.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/charts/c3-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/charts/c3-chart.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/noui-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/noui-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/noui-slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/noui-slider.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/toastr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/toastr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/extensions/toastr.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/file-uploaders/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/file-uploaders/dropzone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/file-uploaders/dropzone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/file-uploaders/dropzone.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/checkboxes-radios.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/checkboxes-radios.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/dual-listbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/dual-listbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/dual-listbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/dual-listbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/form-extended.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/form-extended.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/form-extended.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/form-extended.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/typeahed.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/typeahed.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/typeahed.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/extended/typeahed.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectBoxIt/selectBoxIt.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectBoxIt/selectBoxIt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectBoxIt/selectBoxIt.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectBoxIt/selectBoxIt.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectivity/selectivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectivity/selectivity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectivity/selectivity.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectivity/selectivity.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectize/selectize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectize/selectize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectize/selectize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/selectize/selectize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/switch.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/validation/form-validation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/validation/form-validation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/validation/form-validation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/validation/form-validation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/wizard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/wizard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/wizard.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/forms/wizard.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/images/cropper/cropper.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/images/cropper/cropper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/images/cropper/cropper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/images/cropper/cropper.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/cube-transition.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/cube-transition.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/cube-transition.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/cube-transition.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out-rapid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out-rapid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out-rapid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out-rapid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-pulse-out.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-random.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-random.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-random.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale-random.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-scale.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-spin-fade-loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-spin-fade-loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-spin-fade-loader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/line-spin-fade-loader.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/pacman.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/pacman.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/pacman.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/pacman.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/semi-circle-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/semi-circle-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/semi-circle-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/semi-circle-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/square-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/square-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/square-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/square-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/triangle-skew-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/triangle-skew-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/triangle-skew-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/animations/triangle-skew-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/loaders.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/loaders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/loaders.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/loaders/loaders.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.autoheight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/addons/jquery.mmenu.autoheight.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/borderstyle/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/borderstyle/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/effects/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/effects/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/fullscreen/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/fullscreen/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/iconbar/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/iconbar/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/justifiedlistview/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/justifiedlistview/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/multiline/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/multiline/jquery.mmenu.multiline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/multiline/jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/multiline/jquery.mmenu.multiline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pagedim/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pagedim/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pageshadow/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/pageshadow/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/popup/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/popup/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/positioning/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/positioning/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/themes/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/themes/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/tileview/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/tileview/jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/tileview/jquery.mmenu.tileview.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/widescreen/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/extensions/widescreen/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/mmenu-custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/mmenu-custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/mmenu-custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/menu/mmenu/mmenu-custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/colorpicker/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/colorpicker/colorpicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/colorpicker/colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/colorpicker/colorpicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/daterange/daterange.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/pickers/daterange/daterange.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/tables/handsontable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/tables/handsontable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/coming-soon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/coming-soon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/coming-soon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/coming-soon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/shapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/shapes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/shapes.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css-rtl/plugins/ui/shapes.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/style-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/vendors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css-rtl/vendors.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/colors.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/components.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/components.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/components.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/components.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-callout.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-callout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-callout.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-callout.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-climacon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-climacon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-climacon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-climacon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-gradient.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-gradient.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-gradient.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-gradient.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-loader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-loader.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-noui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-noui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-noui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-noui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-switch.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-tooltip.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-tooltip.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-tooltip.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/colors/palette-tooltip.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/horizontal-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/horizontal-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/horizontal-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/horizontal-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-compact-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-compact-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-compact-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-compact-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-content-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-content-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-content-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-content-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu-modern.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu-modern.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu-modern.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu-modern.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-overlay-menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-overlay-menu.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-overlay-menu.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/core/menu/menu-types/vertical-overlay-menu.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/card-charts.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-charts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/card-charts.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/card-charts.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/chat-application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/chat-application.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/coming-soon.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/coming-soon.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-ecommerce.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-ecommerce.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-ecommerce.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/dashboard-ecommerce.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/email-application.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/email-application.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/error.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/error.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/error.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/error.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/gallery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/gallery.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/invoice.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/invoice.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/invoice.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/invoice.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/login-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/login-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/login-register.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/login-register.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/project.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/project.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/project.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/search.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/search.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/timeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/timeline.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/timeline.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/timeline.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/under-maintenance.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/under-maintenance.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/users.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/users.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/pages/users.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/pages/users.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/clndr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/clndr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/clndr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/clndr.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/fullcalendar.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/calendars/fullcalendar.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/charts/c3-chart.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/charts/c3-chart.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/noui-slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/noui-slider.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/noui-slider.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/noui-slider.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/toastr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/toastr.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/toastr.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/extensions/toastr.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/file-uploaders/dropzone.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/file-uploaders/dropzone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/file-uploaders/dropzone.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/file-uploaders/dropzone.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/checkboxes-radios.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/checkboxes-radios.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/checkboxes-radios.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/checkboxes-radios.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/dual-listbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/dual-listbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/dual-listbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/dual-listbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/extended/form-extended.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/extended/form-extended.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/extended/form-extended.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/extended/form-extended.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectBoxIt/selectBoxIt.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectBoxIt/selectBoxIt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectBoxIt/selectBoxIt.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectBoxIt/selectBoxIt.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectivity/selectivity.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectivity/selectivity.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectivity/selectivity.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectivity/selectivity.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectize/selectize.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectize/selectize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectize/selectize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/selectize/selectize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/switch.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/switch.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/switch.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/switch.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/validation/form-validation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/validation/form-validation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/validation/form-validation.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/validation/form-validation.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/wizard.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/wizard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/wizard.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/forms/wizard.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/images/cropper/cropper.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/images/cropper/cropper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/images/cropper/cropper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/images/cropper/cropper.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/cube-transition.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/cube-transition.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/cube-transition.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/cube-transition.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out-rapid.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out-rapid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out-rapid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out-rapid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-pulse-out.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-random.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-random.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-random.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale-random.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-scale.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-spin-fade-loader.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-spin-fade-loader.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-spin-fade-loader.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/line-spin-fade-loader.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/pacman.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/pacman.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/pacman.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/pacman.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/semi-circle-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/semi-circle-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/semi-circle-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/semi-circle-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/square-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/square-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/square-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/square-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/triangle-skew-spin.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/triangle-skew-spin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/triangle-skew-spin.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/animations/triangle-skew-spin.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/loaders.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/loaders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/loaders.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/loaders/loaders.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/addons/jquery.mmenu.autoheight.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/borderstyle/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/borderstyle/jquery.mmenu.borderstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/borderstyle/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/effects/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/effects/jquery.mmenu.effects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/effects/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/fullscreen/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/fullscreen/jquery.mmenu.fullscreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/fullscreen/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/iconbar/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/iconbar/jquery.mmenu.iconbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/iconbar/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/justifiedlistview/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/justifiedlistview/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/multiline/jquery.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/multiline/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pagedim/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pagedim/jquery.mmenu.pagedim.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pagedim/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pageshadow/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pageshadow/jquery.mmenu.pageshadow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/pageshadow/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/popup/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/popup/jquery.mmenu.popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/popup/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/positioning/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/positioning/jquery.mmenu.positioning.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/positioning/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/themes/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/themes/jquery.mmenu.themes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/themes/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/tileview/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/tileview/jquery.mmenu.tileview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/tileview/jquery.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/tileview/jquery.mmenu.tileview.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/widescreen/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/widescreen/jquery.mmenu.widescreen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/extensions/widescreen/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/jquery.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/jquery.mmenu.oncanvas.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/jquery.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/mmenu-custom.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/menu/mmenu/mmenu-custom.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/pickers/colorpicker/colorpicker.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/pickers/colorpicker/colorpicker.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/pickers/colorpicker/colorpicker.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/pickers/colorpicker/colorpicker.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/tables/handsontable.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/tables/handsontable.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/jqueryui.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/jqueryui.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/jqueryui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/jqueryui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/shapes.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/shapes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/shapes.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/css/plugins/ui/shapes.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/vendors.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/css/vendors.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/data/locales/en/translation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/data/locales/es/translation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/data/locales/fr/translation.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/data/locales/pt/translation.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/feather/fonts/feather.ttf" afterDir="false" />
@@ -2274,79 +1665,6 @@
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/fonts/summernote/summernote.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/fb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/fb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/ice.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/ice.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/in.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/in.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/mountain.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/mountain.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/snow_rain.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/snow_rain.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/tw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/tw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/wind_turbine.gif" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/backgrounds/wind_turbine.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/bootstrap-colorpicker/hue-horizontal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/bootstrap-colorpicker/hue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/bootstrap-colorpicker/saturation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/crop-pic.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/crop-pic.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/examples.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/syntax/Syntax Highlighter license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/syntax/shCore.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/datatables/resources/syntax/shCore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/doc-images/stack-build-process.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/elements/fitbit-watch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/elements/fitbit-watch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/elements/samsung-gear.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/elements/samsung-gear.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/elements/sws.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/elements/sws.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/elements/vr.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/elements/vr.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-shoes.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-shoes.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/fitness-slide-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/signature-scan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/signature-scan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/ubuntu-type-scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/ubuntu-type-scale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/pages/windows-type-scale.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/pages/windows-type-scale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/portfolio-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-1200/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-10.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-11.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-12.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-13.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-15.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-16.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-17.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-18.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-19.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-20.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-21.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-22.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-23.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-24.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-25.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-26.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-27.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-8.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/portfolio/width-600/portfolio-9.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/images/slider/slider-6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.az-Cyrl-AZ.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/js/core/libraries/jquery_ui/globalize/cultures/globalize.culture.az-Latn-AZ.js" beforeDir="false" />
@@ -4299,27 +3617,16 @@
       <change beforePath="$PROJECT_DIR$/public/assets/admin/vendors/js/ui/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/ui/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/vendors/js/ui/screenfull.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/ui/screenfull.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/vendors/js/vendors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/vendors/js/vendors.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-face.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-face.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-movie.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/boxicons/svg/solid/bxs-movie.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/setting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/brands/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/brands/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/brands/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/brands/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/sidebar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/profile/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/profile/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/subcategories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/subcategories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
@@ -4523,7 +3830,7 @@
       <workItem from="1605730139744" duration="33694000" />
       <workItem from="1605816305726" duration="8602000" />
       <workItem from="1605866023642" duration="328000" />
-      <workItem from="1605866427302" duration="11205000" />
+      <workItem from="1605866427302" duration="13142000" />
     </task>
     <task id="LOCAL-00001" summary="shipping">
       <created>1604849571287</created>
@@ -4560,7 +3867,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605714695319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change to new admin thems">
+      <created>1605949807043</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605949807043</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -4639,10 +3953,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="18" key="SettingsEditor/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605730220203" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605902266742">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605949980318">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605902266742" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1024.728@0.0.1366.728" timestamp="1605949980318" />
     <state x="1366" y="0" width="1040" height="715" maximized="true" key="dock-window-1" timestamp="1605822314158">
       <screen x="1366" y="0" width="1024" height="728" />
     </state>
