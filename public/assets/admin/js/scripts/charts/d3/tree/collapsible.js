@@ -3,7 +3,6 @@
     Description: D3 collapsible tree chart
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
-    Version: 1.0
     Author: PIXINVENT
     Author URL: http://www.themeforest.net/user/pixinvent
 ==========================================================================================*/
@@ -173,9 +172,9 @@ $(window).on("load", function(){
 
 
         // Resize function
-        // 
+        //
         // Since D3 doesn't support SVG resize by default,
-        // we need to manually specify parts of the graph that need to 
+        // we need to manually specify parts of the graph that need to
         // be updated on window resize
         function resize() {
 
