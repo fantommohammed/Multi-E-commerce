@@ -55,3 +55,7 @@ ul#page-navigation-list li ul li a.active{
 .token.footer, .token.content{
 	margin:0 !important;
 }
+ /* documentation specific */
+.content{
+max-height: none !important;
+}
