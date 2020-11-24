@@ -47,6 +47,7 @@ return [
     'orderstatus' => 'Order Status',
     'totalprice' => 'Total Price',
     'product' => 'Product',
+    'products' => 'Products',
     'review' => 'Review',
     'editshippingmethod' => 'Edit Shipping Method',
     'shippingmethod' => 'Shipping Method',
@@ -106,6 +107,14 @@ return [
     'showallmain' => 'Show main',
     'tags' => 'Tags',
     'addnewtag' => 'Add new tag',
+    'addnewproduct' => 'Add new product',
+    'mainproductdata' => 'Main product data',
+    'productname' => 'Product name',
+    'productdesc' => 'Product description',
+    'shortdesc' => 'Short description',
+    'choosecategory' => 'Choose category',
+    'choosetags' => 'Choose tags',
+    'choosebrand' => 'Choose brand',
 
 
 ];

@@ -33,6 +33,10 @@ class Category extends Model
 
     protected $hidden = ['translations'];
 
+    public function scopeActive($query)
+    {
+        return $query ->where('is_active',1);
+    }
     /**
      * The attributes that should be cast to native types.
      *

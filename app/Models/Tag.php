@@ -19,6 +19,7 @@ class Tag extends Model
 
     protected $translatedAttributes = ['name'];
 
+
     /**
      * The attributes that are mass assignable.
      *

@@ -108,14 +108,14 @@ $(window).on("load", function(){
 
         // This function generates all the days of the month. But since we have a 7 by 5 grid, we also need to get some of
         // the days from the previous month and the next month. This way our grid will have all its cells filled. The days
-        // from the previous or the next month will have a different color though.
+        // from the previous or the next month will have a different color though. 
         function publicDaysInMonth() {
             var daysArray = [];
 
             var firstDayOfTheWeek = new Date(publicYearToDisplay(), publicMonthToDisplay(), 1).getDay();
             var daysInPreviousMonth = new Date(publicYearToDisplay(), publicMonthToDisplay(), 0).getDate();
 
-            // Lets say the first week of the current month is a Wednesday. Then we need to get 3 days from
+            // Lets say the first week of the current month is a Wednesday. Then we need to get 3 days from 
             // the end of the previous month. But we can't naively go from 29 - 31. We have to do it properly
             // depending on whether the last month was one that had 31 days, 30 days or 28.
             for (i = 1; i <= firstDayOfTheWeek; i++) {
@@ -259,7 +259,7 @@ $(window).on("load", function(){
             .append("g")
             .attr("class", "arc")
             .attr("transform", function(d) {
-                // This is where we use the index here to translate the pie chart and rendere it in the appropriate cell.
+                // This is where we use the index here to translate the pie chart and rendere it in the appropriate cell. 
                 // Normally, the chart would be squashed up against the top left of the cell, obscuring the text that shows the day of the month.
                 // We use the gridXTranslation and gridYTranslation and multiply it by a factor to move it to the center of the cell. There is probably
                 // a better way of doing this though.
@@ -373,7 +373,7 @@ $(window).on("load", function(){
                 return d[0];
             });
 
-        // Create a new svg group to store the chart elements and store it globally. Again, as the user navigates through the months by pressing
+        // Create a new svg group to store the chart elements and store it globally. Again, as the user navigates through the months by pressing 
         // the "back" and "forward" buttons on the page, we clear the chart elements from this group and re add them again.
         d3CalendarGlobals.chartsGroup = d3CalendarGlobals.calendar.append("svg:g");
         // Call the function to draw the charts in the cells. This will be called again each time the user presses the forward or backward buttons.
