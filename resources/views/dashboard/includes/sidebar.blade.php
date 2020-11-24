@@ -21,13 +21,16 @@
                             <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::parent()->count()}}</span>
                         </a>
                     </li>
-                    <li><a class="menu-item" href="{{route('admin.subcategories')}}"><i></i><span
-                                data-i18n="Collapsed Menu">{{__('admin/setting.showallsub')}}</span>
+                    <li>
+                        <a class="menu-item" href="{{route('admin.subcategories')}}"><i></i>
+                            <span data-i18n="Collapsed Menu">{{__('admin/setting.showallsub')}}</span>
                             <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::child()->count()}}</span>
                         </a>
                     </li>
-                    <li><a class="menu-item" href="{{route('admin.maincategories.create')}}"><i></i><span
-                                data-i18n="Compact Menu">{{__('admin/setting.addnewcategory')}}</span></a>
+                    <li>
+                        <a class="menu-item" href="{{route('admin.maincategories.create')}}"><i></i>
+                            <span data-i18n="Compact Menu">{{__('admin/setting.addnewcategory')}}</span>
+                        </a>
                     </li>
                 </ul>
             </li>
@@ -60,6 +63,22 @@
                     </li>
                     <li><a class="menu-item" href="{{route('admin.tags.create')}}"><i></i><span
                                 data-i18n="Compact Menu">{{__('admin/setting.addnewtag')}}</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item">
+                <a href="#"><i class='bx bxl-product-hunt'></i>
+                    <span class="menu-title" data-i18n="Templates">{{__('admin/setting.products')}}</span>
+                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Product::count()}}</span>
+                </a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="menu-item" href="{{route('admin.tags')}}"><i></i>
+                            <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
+                        </a>
+                    </li>
+                    <li><a class="menu-item" href="{{route('admin.products.general.create')}}"><i></i><span
+                                data-i18n="Compact Menu">{{__('admin/setting.addnewproduct')}}</span></a>
                     </li>
                 </ul>
             </li>

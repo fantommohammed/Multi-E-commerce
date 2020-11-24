@@ -22,6 +22,11 @@ class Brand extends Model
      * @var array
      */
     protected $translatedAttributes = ['name'];
+
+    public function scopeActive($query)
+    {
+        return $query ->where('is_active',1);
+    }
     /**
      * The attributes that will be sluged
      *

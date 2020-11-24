@@ -1,6 +1,6 @@
-(function(window, document, $) {
+  (function(window, document, $) {
     'use strict';
-    
+
 
     $(window).on('load',function(){
         $('.form-group-style .form-control').focus(function() {

@@ -107,7 +107,7 @@ html body.content-boxed-layout .content {
   padding-right : 260px;
 }
 html body.bg-full-screen-image {
-  background : url(../images/backgrounds/bg-2.jpg) no-repeat center center fixed;
+  background : url(../../admin/images/backgrounds/bg-2.jpg) no-repeat center center fixed;
   background-size : cover;
 }
 html body .pace .pace-progress {

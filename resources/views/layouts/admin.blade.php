@@ -118,7 +118,6 @@
 <script src="{{asset('assets/admin/js/scripts/forms/switch.js')}}"></script>
 <script src="{{asset('assets/admin/js/scripts/forms/select/form-select2.js')}}"></script>
 
-<script src="http://code.jquery.com/jquery-1.7.min.js"></script>
 
 
 <!-- END: Page JS-->

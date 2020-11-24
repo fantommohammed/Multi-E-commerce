@@ -47,6 +47,7 @@ return [
     'orderstatus' => 'حالة الطلب',
     'totalprice' => 'الاجمالى',
     'product' => 'المنتج',
+    'products' => 'المنتجات',
     'review' => 'التقيم',
     'editshippingmethod' => 'تعديل  وسيلة التوصيل ',
     'shippingmethod' => 'وسائل التوصيل ',
@@ -106,5 +107,12 @@ return [
     'showallmain' => 'عرض الاقسام الرائيسية',
     'tags' => 'العلامات',
     'addnewtag' => 'أضافة علامة جديدة',
-
+    'addnewproduct' => 'أضافة منتج جديدة',
+    'mainproductdata' => 'البينات الاساسية للمنتج',
+    'productname' => 'اسم المنتج',
+    'productdesc' => 'وصف المنتج',
+    'shortdesc' => 'الوصف المختصر',
+    'choosecategory' => 'أختر القسم',
+    'choosetags' => 'اختر العلامات الدلالية',
+    'choosebrand' => 'اختر المركة',
 ];
