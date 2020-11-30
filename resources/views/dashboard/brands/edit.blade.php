@@ -13,7 +13,7 @@
                                 <li class="breadcrumb-item"><a
                                         href="{{route('admin.maincategories')}}">{{__('admin/setting.brands')}}</a>
                                 </li>
-                                <li class="breadcrumb-item active"> {{__('admin/setting.edit')}} - {{$brand -> name}}
+                                <li class="breadcrumb-item active"> {{__('admin/setting.edit')}}-{{$brand -> name}}
                                 </li>
                             </ol>
                         </div>
@@ -48,9 +48,7 @@
                                               method="POST"
                                               enctype="multipart/form-data">
                                             @csrf
-
                                             <input name="id" value="{{$brand -> id}}" type="hidden">
-
                                             <div class="form-group">
                                                 <div class="text-center">
                                                     <img
@@ -59,8 +57,6 @@
                                                         alt="{{__('admin/setting.brandpicture')}}">
                                                 </div>
                                             </div>
-
-
                                             <div class="form-group">
                                                 <label>{{__('admin/setting.brandpicture')}}</label>
                                                 <label id="projectinput7" class="file center-block">
@@ -71,9 +67,7 @@
                                                 <span class="text-danger">{{$message}}</span>
                                                 @enderror
                                             </div>
-
                                             <div class="form-body">
-
                                                 <h4 class="form-section"><i
                                                         class="ft-home"></i>{{__('admin/setting.branddata')}}</h4>
                                                 <div class="row">
@@ -100,7 +94,6 @@
                                                                    @if($brand -> is_active == 1)checked @endif/>
                                                             <label for="switcheryColor4"
                                                                    class="card-title ml-1">{{__('admin/setting.status')}}</label>
-
                                                             @error("is_active")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
@@ -108,8 +101,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
-
                                             <div class="form-actions">
                                                 <button type="button" class="btn btn-warning mr-1"
                                                         onclick="history.back();">

@@ -40,15 +40,13 @@
                                 @include('dashboard.includes.alerts.success')
                                 @include('dashboard.includes.alerts.errors')
                                 <div class="card-content collapse show">
-                                    <div class="justify-content-center d-flex">
-                                        {!! $categories->links() !!}
-                                    </div>
                                     <div class="card-body card-dashboard">
                                         <div class="table-responsive">
-                                            <table class="table table-striped table-bordered compact">
+                                            <table class="table table-striped disabled table-bordered compact">
                                                 <thead>
                                                 <tr>
                                                     <th>{{__('admin/setting.name')}}</th>
+                                                    <th>{{__('admin/setting.maincategoryname')}}</th>
                                                     <th>{{__('admin/setting.linkname')}}</th>
                                                     <th>{{__('admin/setting.status')}}</th>
                                                     <th>{{__('admin/setting.picture')}}</th>
@@ -60,11 +58,10 @@
                                                     @foreach($categories as $category)
                                                         <tr>
                                                             <td>{{$category -> name}}</td>
-                                                            {{--                                                        <td>{{$category -> _parent->name ?? ''}}</td>--}}
+                                                            <td>{{$category -> _parent->name ?? '__'}}</td>
                                                             <td>{{$category -> slug}}</td>
                                                             <td>{{$category -> getActive()}}</td>
-                                                            <td><img style="width: 150px; height: 100px;"
-                                                                     src=""></td>
+                                                            <td><img style="width: 150px; height: 100px;" src=""></td>
                                                             <td>
                                                                 <div class="btn-group" role="group"
                                                                      aria-label="Basic example">

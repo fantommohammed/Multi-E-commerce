@@ -2,15 +2,12 @@
 
 namespace App\Http\Requests;
 
+use App\Rules\ProductQty;
+use App\Rules\UniqueAttributeName;
 use Illuminate\Foundation\Http\FormRequest;
 
-class MainCategoryRequest extends FormRequest
+class AttributeRequest extends FormRequest
 {
-    /**
-     * @var mixed
-     */
-
-
     /**
      * Determine if the user is authorized to make this request.
      *
@@ -29,9 +26,10 @@ class MainCategoryRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'type' => 'required|in:array[Category::mainCategory,Category::subCategory]',
-            'slug' => 'required|unique:categories,slug,'.$this -> id,
+
+             //'name' => ['required','max:100',new UniqueAttributeName($this ->name,$this -> id)]
+             'name' =>'required|max:100|unique:attribute_translations,name,' . $this->id
         ];
     }
+
 }

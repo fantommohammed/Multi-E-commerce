@@ -13,7 +13,7 @@
                                 <li class="breadcrumb-item"><a
                                         href="{{route('admin.maincategories')}}">{{__('admin/setting.ِmaincategories')}}</a>
                                 </li>
-                                <li class="breadcrumb-item active">{{__('admin/setting.addnewmaincategories')}}
+                                <li class="breadcrumb-item active">{{__('admin/setting.addnewcategory')}}
                                 </li>
                             </ol>
                         </div>
@@ -28,7 +28,7 @@
                             <div class="card">
                                 <div class="card-header">
                                     <h4 class="card-title"
-                                        id="basic-layout-form"> {{__('admin/setting.addnewcategory ')}}</h4>
+                                        id="basic-layout-form">{{__('admin/setting.addnewcategory ')}}</h4>
                                     <a class="heading-elements-toggle"><i
                                             class="la la-ellipsis-v font-medium-3"></i></a>
                                     <div class="heading-elements">
@@ -102,9 +102,6 @@
                                                         </div>
                                                     </div>
                                                 </div>
-{{--                                                <div class="row hidden" id="cats_list">--}}
-
-{{--                                                </div>--}}
                                                 <div class="row">
                                                     <div class="col-md-3">
                                                         <div class="form-group mt-1">
@@ -129,9 +126,7 @@
                                                                    class="switchery"
                                                                    data-color="success"/>
                                                             <label
-                                                                class="card-title ml-1">
-                                                                قسم رئيسي
-                                                            </label>
+                                                                class="card-title ml-1">{{__('admin/setting.maincategory')}}</label>
                                                         </div>
                                                     </div>
                                                     <div class="col-md-3">
@@ -141,21 +136,19 @@
                                                                    value="2"
                                                                    class="switchery" data-color="success"/>
                                                             <label
-                                                                class="card-title ml-1">
-                                                                قسم فرعي
-                                                            </label>
+                                                                class="card-title ml-1">{{__('admin/setting.subcategory')}}</label>
                                                         </div>
                                                     </div>
+
                                                     <div class="col-md-3 hidden" id="cats_list">
                                                         <div class="form-group">
-                                                            <label for="projectinput1"> اختر القسم الرئيسي
+                                                            <label for="projectinput1">{{__('admin/setting.choosemaincategory')}}
                                                             </label>
                                                             <select name="parent_id" class="select2 form-control">
-                                                                <optgroup label="من فضلك أختر القسم ">
+                                                                <optgroup label="admin/setting.plzmaincategoriesselect">
                                                                     @if($categories && $categories -> count() > 0)
                                                                         @foreach($categories as $category)
-                                                                            <option
-                                                                                value="{{$category -> id }}">{{$category -> name}}</option>
+                                                                            <option value="{{$category -> id }}">-{{$category -> name}}</option>
                                                                         @endforeach
                                                                     @endif
                                                                 </optgroup>
@@ -204,8 +197,7 @@
             var image = document.getElementById('output');
             image.src = URL.createObjectURL(event.target.files[0]);
         };
+
     </script>
 @stop
-<script>
 
-</script>

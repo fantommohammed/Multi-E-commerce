@@ -44,7 +44,7 @@
 
 	// Color palette
 	var colorPalette = [
-		["#000","#333","#666","#999","#bbb","#ddd","#f3f3f3","#fff"],
+		["#000","#333","#666","#999","#bbb","#ddd.php","#f3f3f3","#fff"],
 		["#f00","#f90","#ff0","#0f0","#0ff","#00f","#90f","#f0f"],
 		["#f4cccc","#fce5cd","#fff2cc","#d9ead3","#d0e0e3","#cfe2f3","#d9d2e9","#ead1dc"],
 		["#ea9999","#f9cb9c","#ffe599","#b6d7a8","#a2c4c9","#9fc5e8","#b4a7d6","#d5a6bd"],

@@ -7,7 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
-
     use Translatable;
 
     /**
@@ -33,6 +32,7 @@ class Category extends Model
 
     protected $hidden = ['translations'];
 
+
     public function scopeActive($query)
     {
         return $query ->where('is_active',1);
@@ -57,7 +57,7 @@ class Category extends Model
 
     public function getActive()
     {
-       return $this->is_active==0 ? 'غير مفعل' : 'مفعل';
+       return $this->is_active==0 ? __('admin/setting.disactive') : __('admin/setting.active');
     }
     public function _parent()
     {

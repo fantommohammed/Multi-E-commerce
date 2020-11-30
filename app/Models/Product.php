@@ -25,7 +25,7 @@ class Product extends Model
      */
     protected $fillable = [
         'brand_id',
-        'slug',
+         'slug',
         'sku',
         'price',
         'special_price',
@@ -86,7 +86,7 @@ class Product extends Model
     }
 
     public function getActive(){
-        return  $this -> is_active  == 0 ?  'غير مفعل'   : 'مفعل' ;
+        return  $this -> is_active  == 0 ?  __('admin/setting.disactive') : __('admin/setting.active');
     }
 
     public function categories()
@@ -106,5 +106,14 @@ class Product extends Model
     public function options()
     {
         return $this->hasMany(Option::class,'product_id');
+    }
+    public function images()
+    {
+        return $this->hasMany(Image::class,'product_id');
+    }
+
+    public function getPhotoAttribute($val)
+    {
+        return ($val !==null) ? asset('assets/images/products/'.$val) : "";
     }
 }

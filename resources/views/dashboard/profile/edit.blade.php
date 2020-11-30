@@ -1,6 +1,5 @@
 @extends('layouts.admin')
 @section('content')
-
     <div class="app-content content">
         <div class="content-wrapper">
             <div class="content-header row">
@@ -22,7 +21,8 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title" id="basic-layout-form">{{__('admin/setting.editprofile')}}</h4>
+                                    <h4 class="card-title"
+                                        id="basic-layout-form">{{__('admin/setting.editprofile')}}</h4>
                                     <a class="heading-elements-toggle"><i
                                             class="la la-ellipsis-v font-medium-3"></i></a>
                                     <div class="heading-elements">
@@ -48,7 +48,8 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.name')}}</label>
+                                                            <label
+                                                                for="projectinput1">{{__('admin/setting.name')}}</label>
                                                             <input type="text" value="{{$admin -> name}}" id="name"
                                                                    class="form-control"
                                                                    placeholder="  "
@@ -60,7 +61,8 @@
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.email')}}</label>
+                                                            <label
+                                                                for="projectinput1">{{__('admin/setting.email')}}</label>
                                                             <input type="email" value="{{$admin -> email}}" id="email"
                                                                    class="form-control"
                                                                    placeholder="  "
@@ -74,26 +76,27 @@
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.newpassword')}}</label>
+                                                            <label
+                                                                for="projectinput1">{{__('admin/setting.newpassword')}}</label>
                                                             <input type="password" value="" id="password"
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="password">
-                                                            <span class="show-pwd bx bx-show bx-md " toggle="#password-field"></span>
+                                                            <span class="show-pwd bx bx-show bx-md "
+                                                                  toggle="#password-field"></span>
                                                             @error("password")
                                                             <span class="text-danger">{{$message}}</span>
                                                             @enderror
                                                         </div>
-
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
-                                                            <label for="projectinput1">{{__('admin/setting.confirmpassword')}}</label>
+                                                            <label
+                                                                for="projectinput1">{{__('admin/setting.confirmpassword')}}</label>
                                                             <input type="password" value="" id="password-confirmation"
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="password-confirmation">
-
                                                         </div>
                                                     </div>
                                                 </div>
@@ -106,11 +109,16 @@
                                             <div class="pswd_validate" id="pswd_info">
                                                 <h4>{{__('admin/setting.passwordrequirements')}}</h4>
                                                 <ul>
-                                                    <li id="letter" class="invalid">{{__('admin/setting.atleastoneletter')}}</li>
-                                                    <li id="capital" class="invalid">{{__('admin/setting.atleastonecapitalletter')}}</li>
-                                                    <li id="number" class="invalid">{{__('admin/setting.atleastonenumber')}}</li>
-                                                    <li id="length" class="invalid">{{__('admin/setting.beatleast8characters')}}</li>
-                                                    <li id="simbol" class="invalid">{{__('admin/setting.atleastonesimbol($@#)')}}</li>
+                                                    <li id="letter"
+                                                        class="invalid">{{__('admin/setting.atleastoneletter')}}</li>
+                                                    <li id="capital"
+                                                        class="invalid">{{__('admin/setting.atleastonecapitalletter')}}</li>
+                                                    <li id="number"
+                                                        class="invalid">{{__('admin/setting.atleastonenumber')}}</li>
+                                                    <li id="length"
+                                                        class="invalid">{{__('admin/setting.beatleast8characters')}}</li>
+                                                    <li id="simbol"
+                                                        class="invalid">{{__('admin/setting.atleastonesimbol($@#)')}}</li>
                                                 </ul>
                                             </div>
                                         </form>
@@ -124,5 +132,4 @@
             </div>
         </div>
     </div>
-
 @endsection

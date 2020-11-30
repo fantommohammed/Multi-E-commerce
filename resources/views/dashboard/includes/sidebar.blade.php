@@ -17,14 +17,8 @@
                 <ul class="menu-content">
                     <li>
                         <a class="menu-item" href="{{route('admin.maincategories')}}"><i></i>
-                            <span data-i18n="Classic Menu">{{__('admin/setting.showallmain')}}</span>
+                            <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
                             <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::parent()->count()}}</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a class="menu-item" href="{{route('admin.subcategories')}}"><i></i>
-                            <span data-i18n="Collapsed Menu">{{__('admin/setting.showallsub')}}</span>
-                            <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::child()->count()}}</span>
                         </a>
                     </li>
                     <li>
@@ -67,13 +61,45 @@
                 </ul>
             </li>
             <li class=" nav-item">
+                <a href="#"><i class='bx bxs-package'></i>
+                    <span class="menu-title" data-i18n="Templates">{{__('admin/setting.attributes')}}</span>
+                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Attribute::count()}}</span>
+                </a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="menu-item" href="{{route('admin.attributes')}}"><i></i>
+                            <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
+                        </a>
+                    </li>
+                    <li><a class="menu-item" href="{{route('admin.attributes.create')}}"><i></i><span
+                                data-i18n="Compact Menu">{{__('admin/setting.addnewattribute')}}</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item">
+                <a href="#"><i class='bx bxs-package'></i>
+                    <span class="menu-title" data-i18n="Templates">{{__('admin/setting.options')}}</span>
+                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Option::count()}}</span>
+                </a>
+                <ul class="menu-content">
+                    <li>
+                        <a class="menu-item" href="{{route('admin.options')}}"><i></i>
+                            <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
+                        </a>
+                    </li>
+                    <li><a class="menu-item" href="{{route('admin.options.create')}}"><i></i><span
+                                data-i18n="Compact Menu">{{__('admin/setting.addnewoption')}}</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class=" nav-item">
                 <a href="#"><i class='bx bxl-product-hunt'></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.products')}}</span>
                     <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Product::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
-                        <a class="menu-item" href="{{route('admin.tags')}}"><i></i>
+                        <a class="menu-item" href="{{route('admin.products')}}"><i></i>
                             <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
                         </a>
                     </li>

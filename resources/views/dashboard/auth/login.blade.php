@@ -26,7 +26,6 @@
                                     <div class="card-body">
                                         <form class="form-horizontal form-simple" action="{{route('admin.postlogin')}}"
                                               method="post" novalidate>@csrf
-
                                             <fieldset class="form-group position-relative has-icon-left mb-0">
                                                 <input type="text" name="email" class="form-control" id="user-name"
                                                        placeholder="{{__('admin/setting.enteremail')}}" required>
@@ -58,7 +57,7 @@
                                                 </div>
                                             </div>
                                             <button type="submit" class="btn btn-info btn-block"><i
-                                                    class="ft-unlock"></i> Login
+                                                    class="ft-unlock"></i>{{__('admin/setting.logindashboard')}}
                                             </button>
                                         </form>
                                     </div>
@@ -67,12 +66,8 @@
                         </div>
                     </div>
                 </section>
-
             </div>
         </div>
     </div>
     <!-- END: Content-->
-
-
-
 @endsection

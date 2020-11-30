@@ -49,9 +49,9 @@ Globalize.addCultureInfo( "iu-Latn", "default", {
 			},
 			patterns: {
 				d: "d/MM/yyyy",
-				D: "ddd, MMMM dd,yyyy",
-				f: "ddd, MMMM dd,yyyy h:mm tt",
-				F: "ddd, MMMM dd,yyyy h:mm:ss tt"
+				D: "ddd.php, MMMM dd,yyyy",
+				f: "ddd.php, MMMM dd,yyyy h:mm tt",
+				F: "ddd.php, MMMM dd,yyyy h:mm:ss tt"
 			}
 		}
 	}

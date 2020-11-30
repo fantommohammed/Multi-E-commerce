@@ -42,7 +42,7 @@
                                 <div class="card-content collapse show">
                                     <div class="card-body card-dashboard">
                                         <div class="table-responsive">
-                                            <table class="table table-striped table-bordered compact">
+                                            <table class="table table-striped disabled table-bordered compact">
                                                 <thead>
                                                 <tr>
                                                     <th>{{__('admin/setting.name')}}</th>
