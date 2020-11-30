@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\BrandRequest;
-use App\Http\Requests\MainCategoryRequest;
+use App\Http\Requests\CategoryRequest;
 use App\Http\Requests\TagsRequest;
 use App\Models\Brand;
 use App\Models\Category;
@@ -29,20 +29,23 @@ class TagsController extends Controller
 
     public function store(TagsRequest $request)
     {
+        try {
 
+            DB::beginTransaction();
 
-        DB::beginTransaction();
+            //validation
+            $tag = Tag::create(['slug' => $request->slug]);
 
-        //validation
-        $tag = Tag::create(['slug' => $request -> slug]);
+            //save translations
+            $tag->name = $request->name;
+            $tag->save();
 
-        //save translations
-        $tag->name = $request->name;
-        $tag->save();
-        DB::commit();
-        return redirect()->route('admin.tags')->with(['success' => 'تم ألاضافة بنجاح']);
-
-
+            DB::commit();
+            return redirect()->route('admin.tags')->with(['success' => 'تم الاضافة بنجاح']);
+        } catch (\Exception $ex) {
+            DB::rollback();
+            return redirect()->route('admin.tags')->with(['error' => 'حدث خطاء ما برجاء المحاولة لاحقا']);
+        }
     }
 
 
@@ -50,7 +53,7 @@ class TagsController extends Controller
     {
 
         //get specific categories and its translations
-          $tag = Tag::find($id);
+        $tag = Tag::find($id);
 
         if (!$tag)
             return redirect()->route('admin.tags')->with(['error' => 'هذا الماركة غير موجود ']);
@@ -60,7 +63,7 @@ class TagsController extends Controller
     }
 
 
-    public function update($id, TagsRequest  $request)
+    public function update($id, TagsRequest $request)
     {
         try {
             //validation
@@ -68,7 +71,7 @@ class TagsController extends Controller
             //update DB
 
 
-             $tag = Tag::find($id);
+            $tag = Tag::find($id);
 
             if (!$tag)
                 return redirect()->route('admin.tags')->with(['error' => 'هذا الماركة غير موجود']);

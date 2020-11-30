@@ -69,15 +69,14 @@ class BrandsController extends Controller
 
     public function destroy($id)
     {
-        try
-        {
+        try {
             $brand = Brand::find($id);
 
             if (!$brand)
                 return redirect()->route('admin.brands')->with(['error' => 'هذه المركة التجارية غير موجوده ']);
 
-            $image = Str::after($brand->photo,'assets/');
-             $image = base_path('public/assets/'.$image);
+            $image = Str::after($brand->photo, 'assets/');
+            $image = base_path('public/assets/' . $image);
             unlink($image);
             $brand->delete();
 
@@ -85,12 +84,6 @@ class BrandsController extends Controller
         } catch (\Exception $ex) {
             return redirect()->route('admin.brands')->with(['error' => 'حدث خطاء ما برجاء المحاولة لاحقا']);
         }
-
-
-
-
-
-
 
 
     }

@@ -51,7 +51,7 @@ class Brand extends Model
     ];
     public function getActive()
     {
-        return $this->is_active == 0 ? 'غير مفعل' : 'مفعل';
+        return $this->is_active == 0 ? __('admin/setting.disactive') : __('admin/setting.active');
     }
 
     public function getPhotoAttribute($val)

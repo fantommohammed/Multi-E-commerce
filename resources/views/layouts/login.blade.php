@@ -21,20 +21,22 @@
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/bootstrap.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/bootstrap-extended.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/colors.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/components.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/bootstrap-extended.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/colors.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/components.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/custom'.getDirection().'.css')}}">
+
     <!-- END: Theme CSS-->
 
     <!-- BEGIN: Page CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/core/menu/menu-types/vertical-menu-modern.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/core/colors/palette-gradient.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/pages/login-register.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu-modern.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/pages/login-register.css')}}">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/assets/css/style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/assets/css/style'.getDirection().'.css')}}">
     <!-- END: Custom CSS-->
 
     @notify_css

@@ -14,23 +14,23 @@
     <title>Dashboard eCommerce - Modern Admin - Clean Bootstrap 4 Dashboard HTML Template + Bitcoin Dashboard</title>
     <link rel="apple-touch-icon" href="{{asset('assets/admin/images/ico/apple-icon-120.png')}}">
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('assets/admin/images/ico/favicon.ico')}}">
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i%7CQuicksand:300,400,500,700" rel="stylesheet">
 
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/vendors'.getDirection().'.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/forms/selects/select2.min.css')}}">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/pagination/bootstrap-datepaginator.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/weather-icons/climacons.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/fonts/meteocons/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/charts/morris.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/charts/chartist.css')}}">
-    <link rel="stylesheet" type="text/css"
-          href="{{asset('assets/admin/vendors/css/charts/chartist-plugin-tooltip.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/charts/chartist-plugin-tooltip.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/tables/datatable/datatables.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/forms/toggle/bootstrap-switch.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/forms/toggle/switchery.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/pickers/daterange/daterangepicker.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/ui/prism.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/vendors/css/file-uploaders/dropzone.min.css')}}">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -40,24 +40,22 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/components.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css-rtl/custom-rtl.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/boxicons/css/boxicons.css')}}">
-
-
     <!-- END: Theme CSS-->
 
     <!-- BEGIN: Page CSS-->
-        <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu.css')}}">
-    <link rel="stylesheet" type="text/css"
-          href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu-modern.css')}}">
-    <link rel="stylesheet" type="text/css"
-          href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/menu/menu-types/vertical-menu-modern.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/fonts/simple-line-icons/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/pages/timeline.css')}}">
-    <link rel="stylesheet" type="text/css"
-          href="{{asset('assets/admin/'.getFolder().'/pages/dashboard-ecommerce.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/pages/dashboard-ecommerce.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/fonts/mobiriseicons/24px/mobirise/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/core/colors/palette-switch.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/plugins/forms/switch.css')}}">
-
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-switch.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/plugins/forms/switch.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/core/colors/palette-gradient.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/plugins/forms/wizard.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/'.getFolder().'/plugins/pickers/daterange/daterange.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/plugins/file-uploaders/dropzone.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/admin/css/pages/dropzone.css')}}">
     <!-- END: Page CSS-->
 
     <!-- BEGIN: Custom CSS-->
@@ -93,15 +91,24 @@
 <script src="{{asset('assets/admin/vendors/js/charts/raphael-min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/charts/morris.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/timeline/horizontal-timeline.js')}}"></script>
-<script src="{{asset('assets/admin/vendors/js/forms/select/select2.full.min.js')}}"></script>
 
-<!-- END: Page Vendor JS-->
-
-<!-- BEGIN: Page Vendor JS-->
+<script src="{{asset('assets/admin/vendors/js/extensions/jquery.steps.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pickers/dateTime/moment-with-locales.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pickers/daterange/daterangepicker.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/forms/validation/jquery.validate.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/tables/datatable/datatables.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/forms/toggle/bootstrap-switch.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/forms/toggle/switchery.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/forms/toggle/bootstrap-checkbox.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pagination/jquery.bootpag.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pagination/jquery.twbsPagination.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pagination/moment.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pagination/datepicker.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/pagination/bootstrap-datepaginator.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/editors/ckeditor/ckeditor-super-build.js')}}"></script>
+
+<script src="{{asset('assets/admin/vendors/js/ui/prism.min.js')}}"></script>
+<script src="{{asset('assets/admin/vendors/js/extensions/dropzone.min.js')}}"></script>
 <script src="{{asset('assets/admin/vendors/js/forms/select/select2.full.min.js')}}"></script>
 
 <!-- END: Page Vendor JS-->
@@ -114,12 +121,13 @@
 <!-- BEGIN: Page JS-->
 <script src="{{asset('assets/admin/js/scripts/tables/datatables/datatable-styling.js')}}"></script>
 <script src="{{asset('assets/admin/js/scripts/pages/dashboard-ecommerce.js')}}"></script>
-<script src="{{asset('assets/script.js')}}"></script>
 <script src="{{asset('assets/admin/js/scripts/forms/switch.js')}}"></script>
+<script src="{{asset('assets/admin/js/scripts/forms/wizard-steps.js')}}"></script>
 <script src="{{asset('assets/admin/js/scripts/forms/select/form-select2.js')}}"></script>
+<script src="{{asset('assets/admin/js/scripts/extensions/dropzone.js')}}"></script>
+<script src="{{asset('assets/admin/js/scripts/editors/editor-ckeditor.js')}}"></script>
 
-
-
+<script src="{{asset('assets/script.js')}}"></script>
 <!-- END: Page JS-->
 @yield('script')
 

@@ -1,6 +1,6 @@
 /*=========================================================================================
     File Name: pagination.js
-    Description: Provide pagination links for your site or app with the multi-page 
+    Description: Provide pagination links for your site or app with the multi-page
                 pagination component.
     ----------------------------------------------------------------------------------------
     Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
@@ -160,7 +160,7 @@
     $('.paginator-format').datepaginator({
         itemWidth: 60,
         navItemWidth: 20,
-        text: 'Do<br>ddd'
+        text: 'Do<br>ddd.php'
     });
 
     // Hide calendar

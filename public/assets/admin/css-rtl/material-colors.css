@@ -75,7 +75,7 @@ input[type='checkbox'].bg-white + .custom-control-label:before, input[type='radi
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-white {
@@ -184,7 +184,7 @@ input[type='checkbox'].bg-black + .custom-control-label:before, input[type='radi
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-black {
@@ -603,7 +603,7 @@ input[type='checkbox'].bg-primary + .custom-control-label:before, input[type='ra
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-primary {
@@ -1518,7 +1518,7 @@ input[type='checkbox'].bg-secondary + .custom-control-label:before, input[type='
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-secondary {
@@ -2185,7 +2185,7 @@ input[type='checkbox'].bg-success + .custom-control-label:before, input[type='ra
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-success {
@@ -3100,7 +3100,7 @@ input[type='checkbox'].bg-info + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-info {
@@ -4015,7 +4015,7 @@ input[type='checkbox'].bg-warning + .custom-control-label:before, input[type='ra
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-warning {
@@ -4930,7 +4930,7 @@ input[type='checkbox'].bg-danger + .custom-control-label:before, input[type='rad
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-danger {
@@ -5535,7 +5535,7 @@ input[type='checkbox'].bg-light + .custom-control-label:before, input[type='radi
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-light {
@@ -5768,7 +5768,7 @@ input[type='checkbox'].bg-dark + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-dark {
@@ -6311,7 +6311,7 @@ input[type='checkbox'].bg-red + .custom-control-label:before, input[type='radio'
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-red {
@@ -7226,7 +7226,7 @@ input[type='checkbox'].bg-pink + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-pink {
@@ -8141,7 +8141,7 @@ input[type='checkbox'].bg-purple + .custom-control-label:before, input[type='rad
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-purple {
@@ -9056,7 +9056,7 @@ input[type='checkbox'].bg-blue + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-blue {
@@ -9971,7 +9971,7 @@ input[type='checkbox'].bg-cyan + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-cyan {
@@ -10886,7 +10886,7 @@ input[type='checkbox'].bg-teal + .custom-control-label:before, input[type='radio
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-teal {
@@ -11801,7 +11801,7 @@ input[type='checkbox'].bg-yellow + .custom-control-label:before, input[type='rad
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-yellow {
@@ -12716,7 +12716,7 @@ input[type='checkbox'].bg-amber + .custom-control-label:before, input[type='radi
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-amber {
@@ -13631,7 +13631,7 @@ input[type='checkbox'].bg-blue-grey + .custom-control-label:before, input[type='
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-blue-grey {
@@ -14298,7 +14298,7 @@ input[type='checkbox'].bg-grey-blue + .custom-control-label:before, input[type='
 
 /* .custom-control-label{
         &:before{
-          background-color: #ddd !important;
+          background-color: #ddd.php !important;
         }
       } */
 input:focus ~ .bg-grey-blue {

@@ -14,13 +14,14 @@ $(".number-tab-steps").steps({
     transitionEffect: "fade",
     titleTemplate: '<span class="step">#index#</span> #title#',
     labels: {
-        finish: 'Submit'
+        finish: "Submit",
+        next: "next",
+        previous: "Previous",
     },
     onFinished: function (event, currentIndex) {
-        alert("Form submitted.");
+        $('#wizard').submit();
     }
 });
-
 // Wizard tabs with icons setup
 $(".icons-tab-steps").steps({
     headerTag: "h6",
@@ -86,7 +87,7 @@ $(".steps-validation").steps({
         return form.valid();
     },
     onFinished: function (event, currentIndex) {
-        alert("Submitted!");
+        $('#wizard').submit();
     }
 });
 

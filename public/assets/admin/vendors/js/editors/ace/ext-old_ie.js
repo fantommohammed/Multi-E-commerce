@@ -6,7 +6,7 @@ var lang = require("../lib/lang");
 var event = require("../lib/event");
 var searchboxCss = "\
 .ace_search {\
-background-color: #ddd;\
+background-color: #ddd.php;\
 border: 1px solid #cbcbcb;\
 border-top: 0 none;\
 max-width: 325px;\
@@ -131,7 +131,7 @@ background-color: #eee;\
 opacity:1;\
 }\
 .ace_button:active {\
-background-color: #ddd;\
+background-color: #ddd.php;\
 }\
 .ace_button.checked {\
 border-color: #3399ff;\
@@ -197,12 +197,12 @@ var SearchBox = function(editor, range, showReplaceForm) {
         this.searchInput = this.searchBox.querySelector(".ace_search_field");
         this.replaceInput = this.replaceBox.querySelector(".ace_search_field");
     };
-    
+
     this.$init = function() {
         var sb = this.element;
-        
+
         this.$initElements(sb);
-        
+
         var _this = this;
         event.addListener(sb, "mousedown", function(e) {
             setTimeout(function(){
@@ -348,7 +348,7 @@ var SearchBox = function(editor, range, showReplaceForm) {
         this.find(true, true);
     };
     this.findAll = function(){
-        var range = this.editor.findAll(this.searchInput.value, {            
+        var range = this.editor.findAll(this.searchInput.value, {
             regExp: this.regExpOption.checked,
             caseSensitive: this.caseSensitiveOption.checked,
             wholeWord: this.wholeWordOption.checked
@@ -362,7 +362,7 @@ var SearchBox = function(editor, range, showReplaceForm) {
     this.replace = function() {
         if (!this.editor.getReadOnly())
             this.editor.replace(this.replaceInput.value);
-    };    
+    };
     this.replaceAndFindNext = function() {
         if (!this.editor.getReadOnly()) {
             this.editor.replace(this.replaceInput.value);
@@ -387,9 +387,9 @@ var SearchBox = function(editor, range, showReplaceForm) {
 
         if (value)
             this.searchInput.value = value;
-        
+
         this.find(false, false, true);
-        
+
         this.searchInput.focus();
         this.searchInput.select();
 
@@ -426,7 +426,7 @@ function patch(obj, name, regexp, replacement) {
 if (useragent.isIE && useragent.isIE < 10 && window.top.document.compatMode === "BackCompat")
     useragent.isOldIE = true;
 
-if (typeof document != "undefined" && !document.documentElement.querySelector) {    
+if (typeof document != "undefined" && !document.documentElement.querySelector) {
     useragent.isOldIE = true;
     var qs = function(el, selector) {
         if (selector.charAt(0) == ".") {
@@ -450,11 +450,11 @@ if (typeof document != "undefined" && !document.documentElement.querySelector) {
     var sb = require("./searchbox").SearchBox.prototype;
     patch(
         sb, "$initElements",
-        /([^\s=]*).querySelector\((".*?")\)/g, 
+        /([^\s=]*).querySelector\((".*?")\)/g,
         "qs($1, $2)"
     );
 }
-    
+
 var compliantExecNpcg = /()??/.exec("")[1] === undefined;
 if (compliantExecNpcg)
     return;
@@ -464,7 +464,7 @@ proto.getLineTokens_orig = proto.getLineTokens;
 
 patch(
     TokenizerModule, "Tokenizer",
-    "ruleRegExps.push(adjustedregex);\n", 
+    "ruleRegExps.push(adjustedregex);\n",
     function(m) {
         return m + '\
         if (state[i].next && RegExp(adjustedregex).test(""))\n\
@@ -475,7 +475,7 @@ patch(
 TokenizerModule.Tokenizer.prototype = proto;
 patch(
     proto, "getLineTokens",
-    /if \(match\[i \+ 1\] === undefined\)\s*continue;/, 
+    /if \(match\[i \+ 1\] === undefined\)\s*continue;/,
     "if (!match[i + 1]) {\n\
         if (value)continue;\n\
         var qre = state[mapping[i]]._qre;\n\
@@ -498,4 +498,3 @@ useragent.isOldIE = true;
                 (function() {
                     window.require(["ace/ext/old_ie"], function() {});
                 })();
-            

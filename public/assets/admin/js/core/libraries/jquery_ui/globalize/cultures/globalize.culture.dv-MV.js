@@ -150,11 +150,11 @@ Globalize.addCultureInfo( "dv-MV", "default", {
 			eras: [{"name":"މީލާދީ","start":null,"offset":0}],
 			patterns: {
 				d: "dd/MM/yy",
-				D: "ddd, yyyy MMMM dd",
+				D: "ddd.php, yyyy MMMM dd",
 				t: "HH:mm",
 				T: "HH:mm:ss",
-				f: "ddd, yyyy MMMM dd HH:mm",
-				F: "ddd, yyyy MMMM dd HH:mm:ss",
+				f: "ddd.php, yyyy MMMM dd HH:mm",
+				F: "ddd.php, yyyy MMMM dd HH:mm:ss",
 				Y: "yyyy, MMMM"
 			}
 		}

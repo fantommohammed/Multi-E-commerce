@@ -4728,9 +4728,9 @@ Globalize.addCultureInfo( "iu", "default", {
 			},
 			patterns: {
 				d: "d/MM/yyyy",
-				D: "ddd, MMMM dd,yyyy",
-				f: "ddd, MMMM dd,yyyy h:mm tt",
-				F: "ddd, MMMM dd,yyyy h:mm:ss tt"
+				D: "ddd.php, MMMM dd,yyyy",
+				f: "ddd.php, MMMM dd,yyyy h:mm tt",
+				F: "ddd.php, MMMM dd,yyyy h:mm:ss tt"
 			}
 		}
 	}
@@ -5218,11 +5218,11 @@ Globalize.addCultureInfo( "dv", "default", {
 			eras: [{"name":"މީލާދީ","start":null,"offset":0}],
 			patterns: {
 				d: "dd/MM/yy",
-				D: "ddd, yyyy MMMM dd",
+				D: "ddd.php, yyyy MMMM dd",
 				t: "HH:mm",
 				T: "HH:mm:ss",
-				f: "ddd, yyyy MMMM dd HH:mm",
-				F: "ddd, yyyy MMMM dd HH:mm:ss",
+				f: "ddd.php, yyyy MMMM dd HH:mm",
+				F: "ddd.php, yyyy MMMM dd HH:mm:ss",
 				Y: "yyyy, MMMM"
 			}
 		}
@@ -11444,11 +11444,11 @@ Globalize.addCultureInfo( "dv-MV", "default", {
 			eras: [{"name":"މީލާދީ","start":null,"offset":0}],
 			patterns: {
 				d: "dd/MM/yy",
-				D: "ddd, yyyy MMMM dd",
+				D: "ddd.php, yyyy MMMM dd",
 				t: "HH:mm",
 				T: "HH:mm:ss",
-				f: "ddd, yyyy MMMM dd HH:mm",
-				F: "ddd, yyyy MMMM dd HH:mm:ss",
+				f: "ddd.php, yyyy MMMM dd HH:mm",
+				F: "ddd.php, yyyy MMMM dd HH:mm:ss",
 				Y: "yyyy, MMMM"
 			}
 		}
@@ -13947,9 +13947,9 @@ Globalize.addCultureInfo( "iu-Latn-CA", "default", {
 			},
 			patterns: {
 				d: "d/MM/yyyy",
-				D: "ddd, MMMM dd,yyyy",
-				f: "ddd, MMMM dd,yyyy h:mm tt",
-				F: "ddd, MMMM dd,yyyy h:mm:ss tt"
+				D: "ddd.php, MMMM dd,yyyy",
+				f: "ddd.php, MMMM dd,yyyy h:mm tt",
+				F: "ddd.php, MMMM dd,yyyy h:mm:ss tt"
 			}
 		}
 	}
@@ -23882,9 +23882,9 @@ Globalize.addCultureInfo( "iu-Latn", "default", {
 			},
 			patterns: {
 				d: "d/MM/yyyy",
-				D: "ddd, MMMM dd,yyyy",
-				f: "ddd, MMMM dd,yyyy h:mm tt",
-				F: "ddd, MMMM dd,yyyy h:mm:ss tt"
+				D: "ddd.php, MMMM dd,yyyy",
+				f: "ddd.php, MMMM dd,yyyy h:mm tt",
+				F: "ddd.php, MMMM dd,yyyy h:mm:ss tt"
 			}
 		}
 	}
