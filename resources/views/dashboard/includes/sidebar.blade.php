@@ -1,5 +1,4 @@
 <!-- BEGIN: Main Menu-->
-
 <div class="main-menu menu-fixed menu-dark menu-accordion menu-shadow" data-scroll-to-active="true">
     <div class="main-menu-content">
         <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
@@ -9,16 +8,19 @@
                     <span class="menu-title" data-i18n="Dashboard">{{__('admin/setting.home')}}</span>
                 </a>
             </li>
+            {{--category--}}
             <li class=" nav-item">
                 <a href=""><i class='bx bx-category'></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.category')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
                         <a class="menu-item" href="{{route('admin.maincategories')}}"><i></i>
                             <span data-i18n="Classic Menu">{{__('admin/setting.showall')}}</span>
-                            <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::parent()->count()}}</span>
+                            <span
+                                class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Category::parent()->count()}}</span>
                         </a>
                     </li>
                     <li>
@@ -28,10 +30,12 @@
                     </li>
                 </ul>
             </li>
+            {{--brands--}}
             <li class=" nav-item">
                 <a href="#"><i class="la la-television"></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.brands')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Brand::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Brand::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
@@ -44,6 +48,7 @@
                     </li>
                 </ul>
             </li>
+            {{--tags--}}
             <li class=" nav-item">
                 <a href="#"><i class=" icon-tag"></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.tags')}}</span>
@@ -60,10 +65,12 @@
                     </li>
                 </ul>
             </li>
+            {{--attributes--}}
             <li class=" nav-item">
                 <a href="#"><i class='bx bxs-package'></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.attributes')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Attribute::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Attribute::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
@@ -76,10 +83,12 @@
                     </li>
                 </ul>
             </li>
+            {{--options--}}
             <li class=" nav-item">
                 <a href="#"><i class='bx bxs-package'></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.options')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Option::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Option::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
@@ -92,10 +101,12 @@
                     </li>
                 </ul>
             </li>
+            {{--products--}}
             <li class=" nav-item">
                 <a href="#"><i class='bx bxl-product-hunt'></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.products')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Product::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Product::count()}}</span>
                 </a>
                 <ul class="menu-content">
                     <li>
@@ -108,14 +119,17 @@
                     </li>
                 </ul>
             </li>
+            {{--setting--}}
             <li class=" nav-item">
                 <a href="#">
                     <i class="icon-settings"></i>
                     <span class="menu-title" data-i18n="Templates">{{__('admin/setting.settings')}}</span>
-                    <span class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Setting::count()}}</span>
+                    <span
+                        class="badge badge badge-info badge-pill float-right mr-2">{{\App\Models\Setting::count()}}</span>
                 </a>
                 <ul class="menu-content">
-                    <li><a class="menu-item" href="#"><i></i><span data-i18n="Vertical">{{__('admin/setting.shipping methods')}}</span></a>
+                    <li><a class="menu-item" href="#"><i></i><span
+                                data-i18n="Vertical">{{__('admin/setting.shipping methods')}}</span></a>
                         <ul class="menu-content">
                             <li><a class="menu-item" href="{{route('edit.shipping.methods','free')}}">
                                     <i></i>
@@ -134,15 +148,36 @@
                             </li>
                         </ul>
                     </li>
-{{--                    <li><a class="menu-item" href="#"><i></i><span data-i18n="Horizontal">Horizontal</span></a>--}}
-{{--                        <ul class="menu-content">--}}
-{{--                            <li><a class="menu-item" href="../horizontal-menu-template"><i></i><span data-i18n="Classic">Classic</span></a>--}}
-{{--                            </li>--}}
-{{--                            <li><a class="menu-item" href="../horizontal-menu-template-nav"><i></i><span data-i18n="Full Width">Full Width</span></a>--}}
-{{--                            </li>--}}
-{{--                        </ul>--}}
-{{--                    </li>--}}
+                    {{--                    <li><a class="menu-item" href="#"><i></i><span data-i18n="Horizontal">Horizontal</span></a>--}}
+                    {{--                        <ul class="menu-content">--}}
+                    {{--                            <li><a class="menu-item" href="../horizontal-menu-template"><i></i><span data-i18n="Classic">Classic</span></a>--}}
+                    {{--                            </li>--}}
+                    {{--                            <li><a class="menu-item" href="../horizontal-menu-template-nav"><i></i><span data-i18n="Full Width">Full Width</span></a>--}}
+                    {{--                            </li>--}}
+                    {{--                        </ul>--}}
+                    {{--                    </li>--}}
                 </ul>
+                <ul class="menu-content">
+                    <li><a class="menu-item" href="#"><i></i><span
+                                data-i18n="Vertical">{{__('admin/setting.main slider')}}</span></a>
+                        <ul class="menu-content">
+                            <li><a class="menu-item" href="{{route('admin.sliders.create')}}">
+                                    <i></i>
+                                    <span data-i18n="Classic Menu">slider picture</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    {{--                    <li><a class="menu-item" href="#"><i></i><span data-i18n="Horizontal">Horizontal</span></a>--}}
+                    {{--                        <ul class="menu-content">--}}
+                    {{--                            <li><a class="menu-item" href="../horizontal-menu-template"><i></i><span data-i18n="Classic">Classic</span></a>--}}
+                    {{--                            </li>--}}
+                    {{--                            <li><a class="menu-item" href="../horizontal-menu-template-nav"><i></i><span data-i18n="Full Width">Full Width</span></a>--}}
+                    {{--                            </li>--}}
+                    {{--                        </ul>--}}
+                    {{--                    </li>--}}
+                </ul>
+
             </li>
 
             <li class=" navigation-header"><span data-i18n="Admin Panels">Admin Panels</span><i class="la la-ellipsis-h"

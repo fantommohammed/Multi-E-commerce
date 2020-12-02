@@ -95,7 +95,7 @@
                                 <div class="card-body">
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
-                                            <h3 class="success">146</h3>
+                                            <h3 class="success">100}</h3>
                                             <h6>{{__('admin/setting.newcustomer')}}</h6>
                                         </div>
                                         <div>
@@ -115,7 +115,7 @@
                                 <div class="card-body">
                                     <div class="media d-flex">
                                         <div class="media-body text-left">
-                                            <h3 class="success">146</h3>
+                                            <h3 class="info">{{\App\Models\User::count()}}</h3>
                                             <h6>{{__('admin/setting.totalcustomer')}}</h6>
                                         </div>
                                         <div>
