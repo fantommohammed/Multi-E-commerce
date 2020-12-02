@@ -99,6 +99,9 @@
                                     <i class="flag-icon flag-icon-us"></i>
                                     {{ $properties['native'] }}
                                 </a>
+                                @if(!$loop->last)
+                                    <div class="dropdown-divider"></div>
+                                @endif
                             @endforeach
                         </div>
                     </li>
