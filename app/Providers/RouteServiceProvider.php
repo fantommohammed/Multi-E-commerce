@@ -23,6 +23,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     public const HOME = '/';
     public const ADMIN = '/admin';
+    public const VERIFIED = '/verify';
 
     /**
      * Define your route model bindings, pattern filters, etc.
@@ -44,7 +45,6 @@ class RouteServiceProvider extends ServiceProvider
     public function map()
     {
         $this->mapApiRoutes();
-
         $this->mapWebRoutes();
         $this->mapSiteRoutes();
         $this->mapAdminRoutes();

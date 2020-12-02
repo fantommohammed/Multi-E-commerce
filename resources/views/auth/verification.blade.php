@@ -1,5 +1,4 @@
 @extends('layouts.site')
-
 @section('content')
     <nav data-depth="1" class="breadcrumb-bg">
         <div class="container no-index">
@@ -36,9 +35,9 @@
                                         </label>
                                         <div class="col-md-6">
 
-                                            <input class="form-control" name="code" value=""
+                                            <input class="form-control" name="otp" value=""
                                                    type="text" required="">
-                                            @error('code')
+                                            @error('otp')
                                             <span  class="invalid-feedback text-danger" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

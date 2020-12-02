@@ -86,20 +86,6 @@ Route::group([
                 });
                 ######################### End tags Routes  ########################
 
-//               ############################### products ###################
-//                 Route::group(['prefix' => 'products'], function () {
-//                 Route::get('/', 'ProductsController@index')->name('admin.products');
-//                 Route::get('general-information', 'ProductsController@create')->name('admin.products.general.create');
-//                 Route::post('store-general-', 'ProductsController@store')->name('admin');
-//                 Route::post('store-general-information', 'ProductsController@storeProductInfo')->name('admin.products.general.store');
-//                 Route::post('images', 'ProductsController@saveProductImages')->name('admin.products.images.store');
-//                 Route::post('imagesdelete/{id}', 'ProductsController@deleteProductImages')->name('admin.products.images.delete');
-//                 Route::get('edit-general-information/{id}', 'ProductsController@edit')->name('admin.products.general.edit');
-//                 Route::post('update-general-information/{id}', 'ProductsController@update')->name('admin.products.general.update');
-//                 Route::get('delete/{id}', 'ProductsController@destroy')->name('admin.products.general.delete'); });
-//
-//                ############################### end products ###################
-
                 ############################### products ###################
                 Route::group(['prefix' => 'products'], function () {
                     Route::get('/', 'ProductsController@index')->name('admin.products');
@@ -134,6 +120,16 @@ Route::group([
                     Route::get('delete/{id}','OptionsController@destroy') -> name('admin.options.delete');
                 });
                 ######################### End  options Routes  ########################
+
+                ######################### Begin sliders Routes ########################
+                Route::group(['prefix' => 'sliders'], function () {
+                    Route::get('/','SliderController@addImages') -> name('admin.sliders.create');
+                    Route::get('images','SliderController@saveSliderImages') -> name('admin.sliders.images.store');
+                    Route::post('images/db','SliderController@saveSliderImages') -> name('admin.sliders.images.store.db');
+                });
+                ######################### End  sliders Routes  ########################
+                Route::get('newUser','LoginController@newUser') -> name('new.User');
+
             });
 
 
